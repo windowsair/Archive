@@ -1,4 +1,4 @@
-`include "definitions.sv"
+`include "definitions.svh"
 
 typedef class NNI_cell;
 typedef class UNI_cell;

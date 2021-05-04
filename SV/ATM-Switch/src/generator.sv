@@ -12,11 +12,13 @@ class UNI_generator;
   int PortID;  // Which Rx port are we generating?
   event gen_done;
 
-  function new(input mailbox gen2drv, input event drv2gen, input int nCells, input int PortID);
+  function new(input mailbox gen2drv, input event drv2gen, input int nCells, input int PortID,
+  ref event event_gen_done);
     this.gen2drv = gen2drv;
     this.drv2gen = drv2gen;
     this.nCells = nCells;
     this.PortID = PortID;
+    this.gen_done = event_gen_done;
     blueprint = new();
 
   endfunction : new

@@ -1,4 +1,4 @@
-`include "definitions.sv"
+`include "definitions.svh"
 
 interface Utopia (
     input bit clk

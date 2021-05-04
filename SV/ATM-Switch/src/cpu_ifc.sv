@@ -2,7 +2,7 @@
 `define CPU_IFC__SV
 
 
-`include "definitions.sv"  // include external definitions
+`include "definitions.svh"  // include external definitions
 
 interface cpu_ifc;
   logic BusMode;

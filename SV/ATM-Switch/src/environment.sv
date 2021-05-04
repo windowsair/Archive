@@ -69,6 +69,7 @@ class Environment;
   UNI_generator gen[];
   mailbox gen2drv[];
   event drv2gen[];
+  event event_genAllDone[];
   Driver drv[];
   Monitor mon[];
   Config cfg;
@@ -139,13 +140,14 @@ function void Environment::build();
   drv = new[numRx];
   gen2drv = new[numRx];
   drv2gen = new[numRx];
+  event_genAllDone = new[numRx];
   //scb = new(cfg);
   scb = new(cfg);
   cov = new();
 
   foreach (gen[i]) begin
     gen2drv[i] = new();
-    gen[i] = new(gen2drv[i], drv2gen[i], cfg.cells_per_chan[i], i);
+    gen[i] = new(gen2drv[i], drv2gen[i], cfg.cells_per_chan[i], i, event_genAllDone[i]);
     drv[i] = new(gen2drv[i], drv2gen[i], Rx[i], i);
   end
 
@@ -262,7 +264,7 @@ endtask : reset
 //---------------------------------------------------------------------------
 `define WAIT_FOR_PORT_TRIGGERED(port)                                          \
    begin                                                                       \
-      wait((cfg.cells_per_chan[port] == 0) || (gen[port].gen_done.triggered)); \
+      wait((cfg.cells_per_chan[port] == 0) || (event_genAllDone[port].triggered)); \
       $display("###### Port Number %d is triggered ###############", port);    \
    end
 

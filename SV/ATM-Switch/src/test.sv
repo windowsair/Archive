@@ -1,5 +1,5 @@
 
-`include "definitions.sv"
+`include "definitions.svh"
 `include "atm_cell.sv"
 
 program automatic test #(

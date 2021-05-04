@@ -27,8 +27,8 @@ module top;
   end
 
 
-  Utopia Rx[0:NumRx-1] (clk);  // NumRx x Level 1 Utopia Rx Interface
-  Utopia Tx[0:NumTx-1] (clk);  // NumTx x Level 1 Utopia Tx Interface
+  Utopia rx[0:NumRx-1] (clk);  // NumRx x Level 1 Utopia Rx Interface
+  Utopia tx[0:NumTx-1] (clk);  // NumTx x Level 1 Utopia Tx Interface
   cpu_ifc mif ();  // Intel-style Utopia parallel management interface
 
   squat squat (
@@ -44,50 +44,28 @@ module top;
       .DataOut  (mif.DataOut),
       .Rdy_Dtack(mif.Rdy_Dtack),
 
-      .rx0_soc (Rx[0].soc),
-      .rx0_data(Rx[0].data),
-      .rx0_clav(Rx[0].clav),
-      .rx0_en  (Rx[0].en),
+`define TRANSFER_PORT_CONNECT(PORT, DIR)             \
+      .``DIR````PORT``_soc (``DIR``[``PORT``].soc),  \
+      .``DIR````PORT``_data(``DIR``[``PORT``].data), \
+      .``DIR````PORT``_clav(``DIR``[``PORT``].clav), \
+      .``DIR````PORT``_en  (``DIR``[``PORT``].en)
 
-      .rx1_soc (Rx[1].soc),
-      .rx1_data(Rx[1].data),
-      .rx1_clav(Rx[1].clav),
-      .rx1_en  (Rx[1].en),
 
-      .rx2_soc (Rx[2].soc),
-      .rx2_data(Rx[2].data),
-      .rx2_clav(Rx[2].clav),
-      .rx2_en  (Rx[2].en),
 
-      .rx3_soc (Rx[3].soc),
-      .rx3_data(Rx[3].data),
-      .rx3_clav(Rx[3].clav),
-      .rx3_en  (Rx[3].en),
+      `TRANSFER_PORT_CONNECT(0, rx),
+      `TRANSFER_PORT_CONNECT(1, rx),
+      `TRANSFER_PORT_CONNECT(2, rx),
+      `TRANSFER_PORT_CONNECT(3, rx),
 
-      .tx0_soc (Tx[0].soc),
-      .tx0_data(Tx[0].data),
-      .tx0_en  (Tx[0].en),
-      .tx0_clav(Tx[0].clav),
-
-      .tx1_soc (Tx[1].soc),
-      .tx1_data(Tx[1].data),
-      .tx1_en  (Tx[1].en),
-      .tx1_clav(Tx[1].clav),
-
-      .tx2_soc (Tx[2].soc),
-      .tx2_data(Tx[2].data),
-      .tx2_en  (Tx[2].en),
-      .tx2_clav(Tx[2].clav),
-
-      .tx3_soc (Tx[3].soc),
-      .tx3_data(Tx[3].data),
-      .tx3_en  (Tx[3].en),
-      .tx3_clav(Tx[3].clav)
+      `TRANSFER_PORT_CONNECT(0, tx),
+      `TRANSFER_PORT_CONNECT(1, tx),
+      `TRANSFER_PORT_CONNECT(2, tx),
+      `TRANSFER_PORT_CONNECT(3, tx)
   );  // DUT
 
   test #(NumRx, NumTx) t1 (
-      Rx,
-      Tx,
+      rx,
+      tx,
       mif,
       clk,
       rst_n
