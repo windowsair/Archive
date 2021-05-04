@@ -4,23 +4,9 @@
 
 //`include "atm_cell.sv"
 //`include "Utopia.sv"
+`include "decorate_callback.svh"
 
 typedef class Driver;
-
-/////////////////////////////////////////////////////////////////////////////
-// Driver callback class
-// Simple callbacks that are called before and after a cell is transmitted
-// This class has empty tasks, which are used by default
-// A testcase can extend this class to inject new behavior in the driver
-// without having to change any code in the driver
-
-class Driver_cbs;
-  virtual task pre_tx(input Driver drv, input UNI_cell ucell);
-  endtask : pre_tx
-
-  virtual task post_tx(input Driver drv, input UNI_cell ucell);
-  endtask : post_tx
-endclass : Driver_cbs
 
 /////////////////////////////////////////////////////////////////////////////
 class Driver;
@@ -28,12 +14,14 @@ class Driver;
   mailbox gen2drv;  // For cells sent from generator
   event drv2gen;  // Tell generator when I am done with cell
   vUtopiaRx Rx;  // Virtual interface for transmitting cells
-  Driver_cbs cbsq[$];  // Queue of callback objects
+  local Decorate_callback #(Driver, UNI_cell) cbsq_[$];  // Queue of callback objects
   int PortID;
 
   extern function new(input mailbox gen2drv, input event drv2gen, input vUtopiaRx Rx,
                       input int PortID);
-    extern task run();
+  extern function addDecorate(Decorate_callback#(Driver, UNI_cell) cb);
+
+  extern task run();
   extern task send(input UNI_cell ucell);
 
 endclass : Driver
@@ -49,6 +37,11 @@ function Driver::new(input mailbox gen2drv, input event drv2gen, input vUtopiaRx
   this.Rx = Rx;
   this.PortID = PortID;
 endfunction : new
+
+function Driver::addDecorate(Decorate_callback#(Driver, UNI_cell) cb);
+  this.cbsq_.push_back(cb);
+endfunction : addDecorate
+
 
 //---------------------------------------------------------------------------
 // run(): Run the driver.
@@ -68,15 +61,17 @@ task Driver::run();
 
     begin : Tx
       // Pre-transmit callbacks
-      foreach (cbsq[i]) begin
-        cbsq[i].pre_tx(this, ucell);
+      foreach (cbsq_[i]) begin
+        cbsq_[i].pre_task(this, ucell);
       end
 
       ucell.display($psprintf("@%0t: Drv%0d: ", $time, PortID));
       send(ucell);
 
       // Post-transmit callbacks
-      foreach (cbsq[i]) cbsq[i].post_tx(this, ucell);
+      foreach (cbsq_[i]) begin
+        cbsq_[i].post_task(this, ucell);
+      end
     end : Tx
 
     gen2drv.get(ucell);  // Remove cell from the mailbox

@@ -10,11 +10,13 @@
 `include "coverage.sv"
 `include "cpu_driver.sv"
 
+`include "decorate_callback.svh"
+
 
 /////////////////////////////////////////////////////////
 // Call scoreboard from Driver using callbacks
 /////////////////////////////////////////////////////////
-class Scb_Driver_cbs extends Driver_cbs;
+class Scb_Driver_cbs extends Decorate_callback #(Driver, UNI_cell);
   Scoreboard scb;
 
   function new(Scoreboard scb);
@@ -22,16 +24,16 @@ class Scb_Driver_cbs extends Driver_cbs;
   endfunction : new
 
   // Send received cell to scoreboard
-  virtual task post_tx(input Driver drv, input UNI_cell ucell);
+  virtual task post_task(input Driver drv, input UNI_cell ucell);
     scb.save_expected(ucell);
-  endtask : post_tx
+  endtask : post_task
 endclass : Scb_Driver_cbs
 
 
 /////////////////////////////////////////////////////////
 // Call scoreboard from Monitor using callbacks
 /////////////////////////////////////////////////////////
-class Scb_Monitor_cbs extends Monitor_cbs;
+class Scb_Monitor_cbs extends Decorate_callback #(Monitor, NNI_cell);
   Scoreboard scb;
 
   function new(Scoreboard scb);
@@ -39,16 +41,16 @@ class Scb_Monitor_cbs extends Monitor_cbs;
   endfunction : new
 
   // Send received cell to scoreboard
-  virtual task post_rx(input Monitor mon, input NNI_cell ncell);
+  virtual task post_task(input Monitor mon, input NNI_cell ncell);
     scb.check_actual(ncell, mon.PortID);
-  endtask : post_rx
+  endtask : post_task
 endclass : Scb_Monitor_cbs
 
 
 /////////////////////////////////////////////////////////
 // Call coverage from Monitor using callbacks
 /////////////////////////////////////////////////////////
-class Cov_Monitor_cbs extends Monitor_cbs;
+class Cov_Monitor_cbs extends Decorate_callback #(Monitor, NNI_cell);
   Coverage cov;
 
   function new(Coverage cov);
@@ -56,10 +58,10 @@ class Cov_Monitor_cbs extends Monitor_cbs;
   endfunction : new
 
   // Send received cell to coverage
-  virtual task post_rx(input Monitor mon, input NNI_cell ncell);
+  virtual task post_task(input Monitor mon, input NNI_cell ncell);
     CellCfgType CellCfg = top.squat.fwdtable.lut.Mem[ncell.getVPI()];
     cov.sample(mon.PortID, CellCfg.FWD);
-  endtask : post_rx
+  endtask : post_task
 endclass : Cov_Monitor_cbs
 
 
@@ -158,14 +160,14 @@ function void Environment::build();
   begin
     Scb_Driver_cbs sdc = new(scb);
     Scb_Monitor_cbs smc = new(scb);
-    foreach (drv[i]) drv[i].cbsq.push_back(sdc);  // Add scb to every driver
-    foreach (mon[i]) mon[i].cbsq.push_back(smc);  // Add scb to every monitor
+    foreach (drv[i]) drv[i].addDecorate(sdc);  // Add scb to every driver
+    foreach (mon[i]) mon[i].addDecorate(smc);  // Add scb to every monitor
   end
 
   // Connect coverage with callbacks
   begin
     Cov_Monitor_cbs smc = new(cov);
-    foreach (mon[i]) mon[i].cbsq.push_back(smc);  // Add cov to every monitor
+    foreach (mon[i]) mon[i].addDecorate(smc);  // Add cov to every monitor
   end
 
 endfunction : build
