@@ -11,8 +11,9 @@
 `include "cpu_driver.sv"
 
 
-
+/////////////////////////////////////////////////////////
 // Call scoreboard from Driver using callbacks
+/////////////////////////////////////////////////////////
 class Scb_Driver_cbs extends Driver_cbs;
   Scoreboard scb;
 
@@ -27,7 +28,9 @@ class Scb_Driver_cbs extends Driver_cbs;
 endclass : Scb_Driver_cbs
 
 
+/////////////////////////////////////////////////////////
 // Call scoreboard from Monitor using callbacks
+/////////////////////////////////////////////////////////
 class Scb_Monitor_cbs extends Monitor_cbs;
   Scoreboard scb;
 
@@ -42,7 +45,9 @@ class Scb_Monitor_cbs extends Monitor_cbs;
 endclass : Scb_Monitor_cbs
 
 
+/////////////////////////////////////////////////////////
 // Call coverage from Monitor using callbacks
+/////////////////////////////////////////////////////////
 class Cov_Monitor_cbs extends Monitor_cbs;
   Coverage cov;
 
@@ -52,8 +57,7 @@ class Cov_Monitor_cbs extends Monitor_cbs;
 
   // Send received cell to coverage
   virtual task post_rx(input Monitor mon, input NNI_cell ncell);
-    //CellCfgType CellCfg = top.squat.fwdtable.lut.read(ncell.VPI);
-    CellCfgType CellCfg = top.squat.fwdtable.lut.Mem[ncell.VPI];
+    CellCfgType CellCfg = top.squat.fwdtable.lut.Mem[ncell.getVPI()];
     cov.sample(mon.PortID, CellCfg.FWD);
   endtask : post_rx
 endclass : Cov_Monitor_cbs
@@ -77,14 +81,12 @@ class Environment;
   CPU_driver cpu;
 
   extern function new(input vUtopiaRx Rx[], input vUtopiaTx Tx[], input int numRx, numTx,
-                      input vCPU_T mif); // connect DUT interface
-
-  // step by step
+                      input vCPU_T mif);
   extern virtual function void gen_cfg();
   extern virtual function void build();
-  extern virtual task reset();
   extern virtual task run();
   extern virtual function void wrap_up();
+  extern virtual task reset();
   extern virtual task wait_for_end();
 
 endclass : Environment
@@ -92,7 +94,6 @@ endclass : Environment
 
 //---------------------------------------------------------------------------
 // Construct an environment instance
-// Connect DUT interface
 //---------------------------------------------------------------------------
 function Environment::new(input vUtopiaRx Rx[], input vUtopiaTx Tx[], input int numRx, numTx,
                           input vCPU_T mif);
@@ -120,7 +121,7 @@ endfunction : new
 //---------------------------------------------------------------------------
 function void Environment::gen_cfg();
   assert (cfg.randomize());
-  cfg.display();000000
+  cfg.display();
 endfunction : gen_cfg
 
 
@@ -138,7 +139,7 @@ function void Environment::build();
   drv = new[numRx];
   gen2drv = new[numRx];
   drv2gen = new[numRx];
-
+  //scb = new(cfg);
   scb = new(cfg);
   cov = new();
 
@@ -259,21 +260,33 @@ endtask : reset
 //---------------------------------------------------------------------------
 // wait_for_end
 //---------------------------------------------------------------------------
+`define WAIT_FOR_PORT_TRIGGERED(port)                                          \
+   begin                                                                       \
+      wait((cfg.cells_per_chan[port] == 0) || (gen[port].gen_done.triggered)); \
+      $display("###### Port Number %d is triggered ###############", port);    \
+   end
+
+
 
 task Environment::wait_for_end();
-  fork : timeout_block
-    begin
-      wait((cfg.cells_per_chan[0] == 0) || (cov.cov_done.triggered));
-    end
 
-    begin
-      repeat (1_000_000) @(Rx[0].cbr);
-      $display("@%0t: %m ERROR: Timeout while waiting for generators to finish", $time);
-    end
-  join_any
+  fork : timeout_block
+
+    `WAIT_FOR_PORT_TRIGGERED(0)
+    `WAIT_FOR_PORT_TRIGGERED(1)
+    `WAIT_FOR_PORT_TRIGGERED(2)
+    `WAIT_FOR_PORT_TRIGGERED(3)
+
+    // TODO: Longer waiting time
+    // begin
+    //   repeat (1_000_000) @(Rx[0].cbr);
+    //   $display("@%0t: %m ERROR: Timeout while waiting for generators to finish", $time);
+    // end
+  join
   disable timeout_block;
 
   repeat (5000) @(clk);
+
 endtask : wait_for_end
 
 

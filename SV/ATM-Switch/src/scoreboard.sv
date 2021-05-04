@@ -37,7 +37,7 @@ endfunction // Scoreboard
 //---------------------------------------------------------------------------
 function void Scoreboard::save_expected(UNI_cell ucell);
 
-    CellCfgType CellFwd = env.cpu.lookup[ucell.VPI] ;
+    CellCfgType CellFwd = env.cpu.lookup[ucell.getVPI()] ;
     NNI_cell u2ncell;
     u2ncell = new();
     u2ncell = ucell.to_NNI(CellFwd.VPI);

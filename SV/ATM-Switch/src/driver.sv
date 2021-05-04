@@ -33,7 +33,7 @@ class Driver;
 
   extern function new(input mailbox gen2drv, input event drv2gen, input vUtopiaRx Rx,
                       input int PortID);
-  extern task run();
+    extern task run();
   extern task send(input UNI_cell ucell);
 
 endclass : Driver
