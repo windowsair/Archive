@@ -67,7 +67,14 @@ task CPU_driver::run();
   repeat (10) @(negedge clk);
   $write("Memory: Loading ... ");
   for (int i = 0; i <= 255; i++) begin
-    CellFwd.FWD = $urandom_range(1, 15);
+    //CellFwd.FWD = $urandom_range(0, 15);
+    CellFwd.FWD = 4'b0001;
+    // if (i & 1) begin
+    //   CellFwd.FWD = 4'b0010;
+    // end else begin
+    //   CellFwd.FWD = 4'b0001;
+    // end
+
     //CellFwd.FWD = 4'b1000;
     $display("CellFwd.FWD[%0d]=%0d", i, CellFwd.FWD);
     CellFwd.VPI = i;

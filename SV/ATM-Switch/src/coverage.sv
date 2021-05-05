@@ -14,7 +14,7 @@ class Coverage;
       option.weight = 0;
     }
     coverpoint fwd {
-      bins fwd[] = {[1 : 15]};  // Ignore fwd==0
+      bins fwd[] = {[0 : 15]};  // Ignore fwd==0
       option.weight = 0;
     }
     cross src, fwd;

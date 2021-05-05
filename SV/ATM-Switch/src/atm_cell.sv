@@ -162,10 +162,15 @@ class NNI_cell extends Common_cell;
   rand bit [11:0] VPI_;
   rand bit [15:0] VCI_;
 
+  bit shouldBeDrop_;
+
   extern function new();
   extern function void nni_hec();
   extern function bit compare(input NNI_cell cmp);
   extern function void unpack(input ATMCellType from);
+
+  extern function void setDrop();
+  extern function bit getDrop();
 
   extern function bit [11:0] getVPI();
 
@@ -177,7 +182,16 @@ endclass : NNI_cell
 
 function NNI_cell::new();
   super.new();
+  this.shouldBeDrop_ = 0;
 endfunction : new
+
+function void NNI_cell::setDrop();
+  this.shouldBeDrop_ = 1;
+endfunction : setDrop
+
+function bit NNI_cell::getDrop();
+  return this.shouldBeDrop_;
+endfunction
 
 
 //-----------------------------------------------------------------------------

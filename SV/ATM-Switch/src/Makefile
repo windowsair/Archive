@@ -1,5 +1,5 @@
 # Makefile for SystemVerilog Testbench Lab1
-LAB_DIR = lab5
+LAB_DIR = mywork
 RTL= ../../rtl/hec_cal.v ../../rtl/LookupTable.v ../../rtl/utopia1_atm_rx.v ../../rtl/utopia1_atm_tx.v ../../rtl/FwdLkp.v ../../rtl/arbitor.v ../../rtl/squat.v
 SVTB = ./top.sv ./cpu_ifc.sv ./Utopia.sv
 SVCM = ./test.sv ./environment.sv ./config.sv ./generator.sv ./driver.sv ./monitor.sv ./scoreboard.sv ./coverage.sv

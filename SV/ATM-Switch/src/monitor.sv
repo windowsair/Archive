@@ -40,8 +40,10 @@ endfunction : addDecorate
 //---------------------------------------------------------------------------
 task Monitor::run();
   NNI_cell ncell;
-
+  int delayClk;
   forever begin
+    delayClk = $urandom_range(100, 10000);
+    #(delayClk);
     receive(ncell);
     foreach (cbsq_[i]) cbsq_[i].post_task(this, ncell);  // Post-receive callback
   end

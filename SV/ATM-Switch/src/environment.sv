@@ -42,7 +42,10 @@ class Scb_Monitor_cbs extends Decorate_callback #(Monitor, NNI_cell);
 
   // Send received cell to scoreboard
   virtual task post_task(input Monitor mon, input NNI_cell ncell);
-    scb.check_actual(ncell, mon.PortID);
+    CellCfgType CellCfg = top.squat.fwdtable.lut.Mem[ncell.getVPI()];
+    bit isValid;
+    isValid = CellCfg.FWD != 4'b0000; // TODO: port num
+    scb.check_actual(ncell, mon.PortID, isValid);
   endtask : post_task
 endclass : Scb_Monitor_cbs
 

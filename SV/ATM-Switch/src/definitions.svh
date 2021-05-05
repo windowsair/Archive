@@ -7,12 +7,12 @@
 */
 /* UNI Cell Format */
 typedef struct packed {
-  bit        [3:0]  GFC;   // 在lab3中随机生成
-  bit        [7:0]  VPI;   // 在lab3中随机生成
-  bit        [15:0] VCI;   // 在lab3中随机生成
-  bit               CLP;   // 在lab3中随机生成
-  bit        [2:0]  PT;    // 在lab3中随机生成
-  bit        [7:0]  HEC;   // HEC只与上面这几个字段有关
+  bit        [3:0]  GFC;
+  bit        [7:0]  VPI;
+  bit        [15:0] VCI;
+  bit               CLP;
+  bit        [2:0]  PT;
+  bit        [7:0]  HEC;
   bit [0:47] [7:0]  Payload;
 } uniType;
 
@@ -42,14 +42,14 @@ typedef union packed {
   nniType nni;
   tstType tst;
   bit [0:52] [7:0] Mem;
-} ATMCellType; // 完整的信元结构(union类型)
+} ATMCellType;
 
 /*
   Cell Rewriting and Forwarding Configuration
 */
 typedef struct packed {
-  bit [`TxPorts-1:0] FWD; // 转发表的物理地址
-  bit [11:0] VPI;         // NNI报文的VPI值
+  bit [`TxPorts-1:0] FWD; // forward table physical address
+  bit [11:0] VPI;         // NNI VPI
 } CellCfgType;
 
 `endif // _INCL_DEFINITIONS
