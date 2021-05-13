@@ -3,21 +3,21 @@
 
 class Coverage;
 
-  bit [3:0] src;
+  bit [2:0] src;
   bit [NumTx-1:0] fwd;
   event cov_done;
   real coverage_result = 0.0;
 
   covergroup CG_Forward;
-    coverpoint src {
-      bins src[] = {[0 : 7]};    // 0:3
-      option.weight = 0;
+    x_cp: coverpoint src;
+    y_cp: coverpoint fwd;
+
+    x_y_cross : cross x_cp, y_cp {
+      ignore_bins ignore_fwd = x_y_cross with ( ((y_cp >> x_cp) & 1) == 0 );
+      // Receiving data on a port indicates that fwd is 1 on the bit corresponding to that port.
+      // For those cases that are 0, we must ignore them, and the determination of whether
+      // they should not be received we do not make in coverage.
     }
-    coverpoint fwd {
-      bins fwd[] = {[1 : 255]};  // Ignore fwd==0  // 0:15
-      option.weight = 0;
-    }
-    cross src, fwd;
   endgroup : CG_Forward
 
   // Instantiate the covergroup
@@ -26,7 +26,7 @@ class Coverage;
   endfunction : new
 
   // Sample input data
-  function void sample (input bit [1:0] src, input bit [NumTx-1:0] fwd);
+  function void sample (input bit [2:0] src, input bit [NumTx-1:0] fwd);
     $display("@%0t: Coverage: src=%d. FWD=%b", $time, src, fwd);
     this.src = src;
     this.fwd = fwd;

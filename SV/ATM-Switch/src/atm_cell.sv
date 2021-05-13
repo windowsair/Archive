@@ -3,12 +3,19 @@
 typedef class NNI_cell;
 typedef class UNI_cell;
 
+
+typedef struct  {
+  int port_;
+} extraCellType;
+
 virtual class Common_cell;
   rand bit [15:0] VCI_;
   rand bit CLP_;
   rand bit [2:0] PT_;
   bit [7:0] HEC_;
   rand bit [0:47][7:0] Payload_;
+
+  extraCellType extraData_;
 
   static bit [7:0] syndrome_[0:255];
   static bit isSyndromeGenerated_ = 0;
