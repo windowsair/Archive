@@ -54,7 +54,7 @@ function void Scoreboard::save_expected(UNI_cell ucell);
 
   $display("@%0t: Scb save: VPI=%0x, Forward=%b", $time, CellFwd.VPI, CellFwd.FWD);
 
-  isValid = CellFwd.FWD != 4'b0000;
+  isValid = CellFwd.FWD != 8'b0000_0000;
 
   if (isValid == 0) begin
     u2ncell.setDrop();

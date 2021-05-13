@@ -1,16 +1,17 @@
 # Makefile for SystemVerilog Testbench Lab1
 LAB_DIR = mywork
-RTL= ../../rtl/hec_cal.v ../../rtl/LookupTable.v ../../rtl/utopia1_atm_rx.v ../../rtl/utopia1_atm_tx.v ../../rtl/FwdLkp.v ../../rtl/arbitor.v ../../rtl/squat.v
+RTL= ../../rtl/hec_cal.v ../../rtl/LookupTable.v ../../rtl/utopia1_atm_rx.v ../../rtl/utopia1_atm_tx.v ../../rtl/FwdLkp.v ../../rtl/arbitor.v ../../rtl/squat.v ../../rtl/fifo.v
 SVTB = ./top.sv ./cpu_ifc.sv ./Utopia.sv
-SVCM = ./test.sv ./environment.sv ./config.sv ./generator.sv ./driver.sv ./monitor.sv ./scoreboard.sv ./coverage.sv
-seed = 123456
+SVCM = ./test.sv ./environment.sv ./config.sv ./generator.sv ./driver.sv ./monitor.sv ./scoreboard.sv ./coverage.sv ./generator_stats.sv
+# seed = 123456
+# use system timestamp
 
 default: test
 
 test: compile run
 
 run:
-	./simv -l simv.log +ntb_random_seed=$(seed)
+	./simv -l simv.log +ntb_random_seed=`date +%s`
 
 compile:
 	vcs -full64 -l vcs.log -sverilog -kdb +lint=TFIPC-L -debug_access+all $(SVTB) $(RTL) $(SVCM) +vcs+vcdpluson -lca

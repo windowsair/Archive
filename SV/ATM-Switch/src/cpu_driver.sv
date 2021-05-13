@@ -9,8 +9,9 @@ class CPU_driver;
   vCPU_T mif;
   CellCfgType lookup[255:0];  // copy of look-up table
   bit [NumTx-1:0] fwd;
+  bit generateZeroFWD_;
 
-  extern function new(vCPU_T mif);
+  extern function new(vCPU_T mif, bit generateZeroFWD=1);
   extern task Initialize_Host();
   extern task HostWrite(int a, CellCfgType d);  // configure
   extern task HostRead(int a, output CellCfgType d);
@@ -19,8 +20,9 @@ class CPU_driver;
 endclass : CPU_driver
 
 
-function CPU_driver::new(vCPU_T mif);
+function CPU_driver::new(vCPU_T mif, bit generateZeroFWD=1);
   this.mif = mif;
+  this.generateZeroFWD_ = generateZeroFWD;
 endfunction : new
 
 
@@ -67,15 +69,13 @@ task CPU_driver::run();
   repeat (10) @(negedge clk);
   $write("Memory: Loading ... ");
   for (int i = 0; i <= 255; i++) begin
-    //CellFwd.FWD = $urandom_range(0, 15);
-    CellFwd.FWD = 4'b0001;
+    CellFwd.FWD = $urandom_range(!generateZeroFWD_, 255);
+    //CellFwd.FWD = 4'b0001;
     // if (i & 1) begin
-    //   CellFwd.FWD = 4'b0010;
+    //   CellFwd.FWD = 8'b0000_0010;
     // end else begin
-    //   CellFwd.FWD = 4'b0001;
+    //   CellFwd.FWD = 8'b0000_0001;
     // end
-
-    //CellFwd.FWD = 4'b1000;
     $display("CellFwd.FWD[%0d]=%0d", i, CellFwd.FWD);
     CellFwd.VPI = i;
     HostWrite(i, CellFwd);

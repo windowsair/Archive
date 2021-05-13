@@ -12,8 +12,9 @@ class Monitor;
   vUtopiaTx Tx;  // Virtual interface with output of DUT
   local Decorate_callback #(Monitor, NNI_cell) cbsq_[$];  // Queue of callback objects
   int PortID;
+  bit delay_;
 
-  extern function new(input vUtopiaTx Tx, input int PortID);
+  extern function new(input vUtopiaTx Tx, input int PortID, input bit isDelay=1);
   extern function addDecorate(Decorate_callback#(Monitor, NNI_cell) cb);
 
   extern task run();
@@ -24,9 +25,10 @@ endclass : Monitor
 //---------------------------------------------------------------------------
 // new(): construct an object
 //---------------------------------------------------------------------------
-function Monitor::new(input vUtopiaTx Tx, input int PortID);
+function Monitor::new(input vUtopiaTx Tx, input int PortID, input bit isDelay=1);
   this.Tx = Tx;
   this.PortID = PortID;
+  this.delay_ = isDelay;
 endfunction : new
 
 
@@ -42,8 +44,10 @@ task Monitor::run();
   NNI_cell ncell;
   int delayClk;
   forever begin
-    delayClk = $urandom_range(100, 10000);
-    #(delayClk);
+    delayClk = $urandom_range(100, 1000);
+    $display("DELAY: %d", delayClk);
+    //if (delay_)
+      //#(delayClk);
     receive(ncell);
     foreach (cbsq_[i]) cbsq_[i].post_task(this, ncell);  // Post-receive callback
   end

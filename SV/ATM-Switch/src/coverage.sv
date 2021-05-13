@@ -3,18 +3,18 @@
 
 class Coverage;
 
-  bit [1:0] src;
+  bit [3:0] src;
   bit [NumTx-1:0] fwd;
   event cov_done;
   real coverage_result = 0.0;
 
   covergroup CG_Forward;
     coverpoint src {
-      bins src[] = {[0 : 3]};
+      bins src[] = {[0 : 7]};    // 0:3
       option.weight = 0;
     }
     coverpoint fwd {
-      bins fwd[] = {[0 : 15]};  // Ignore fwd==0
+      bins fwd[] = {[1 : 255]};  // Ignore fwd==0  // 0:15
       option.weight = 0;
     }
     cross src, fwd;

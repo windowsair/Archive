@@ -3,8 +3,8 @@
 //`define SYNTHESIS	// conditional compilation flag for synthesis
 //`define FWDALL		// conditional compilation flag to forward cells
 
-`define TxPorts 4  // set number of transmit ports
-`define RxPorts 4  // set number of receive ports
+`define TxPorts 8  // set number of transmit ports
+`define RxPorts 8  // set number of receive ports
 
 
 module top;
@@ -56,11 +56,19 @@ module top;
       `TRANSFER_PORT_CONNECT(1, rx),
       `TRANSFER_PORT_CONNECT(2, rx),
       `TRANSFER_PORT_CONNECT(3, rx),
+      `TRANSFER_PORT_CONNECT(4, rx),
+      `TRANSFER_PORT_CONNECT(5, rx),
+      `TRANSFER_PORT_CONNECT(6, rx),
+      `TRANSFER_PORT_CONNECT(7, rx),
 
       `TRANSFER_PORT_CONNECT(0, tx),
       `TRANSFER_PORT_CONNECT(1, tx),
       `TRANSFER_PORT_CONNECT(2, tx),
-      `TRANSFER_PORT_CONNECT(3, tx)
+      `TRANSFER_PORT_CONNECT(3, tx),
+      `TRANSFER_PORT_CONNECT(4, tx),
+      `TRANSFER_PORT_CONNECT(5, tx),
+      `TRANSFER_PORT_CONNECT(6, tx),
+      `TRANSFER_PORT_CONNECT(7, tx)
   );  // DUT
 
   test #(NumRx, NumTx) t1 (

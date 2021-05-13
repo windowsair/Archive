@@ -17,8 +17,10 @@ class Driver;
   local Decorate_callback #(Driver, UNI_cell) cbsq_[$];  // Queue of callback objects
   int PortID;
 
+  event event_waitAllTrigger_;
+
   extern function new(input mailbox gen2drv, input event drv2gen, input vUtopiaRx Rx,
-                      input int PortID);
+                      input int PortID, input event event_waitAllTrigger=null);
   extern function addDecorate(Decorate_callback#(Driver, UNI_cell) cb);
 
   extern task run();
@@ -31,11 +33,12 @@ endclass : Driver
 // new(): Construct a driver object
 //---------------------------------------------------------------------------
 function Driver::new(input mailbox gen2drv, input event drv2gen, input vUtopiaRx Rx,
-                     input int PortID);
+                     input int PortID, input event event_waitAllTrigger=null);
   this.gen2drv = gen2drv;
   this.drv2gen = drv2gen;
   this.Rx = Rx;
   this.PortID = PortID;
+  this.event_waitAllTrigger_ = event_waitAllTrigger;
 endfunction : new
 
 function Driver::addDecorate(Decorate_callback#(Driver, UNI_cell) cb);
@@ -65,7 +68,13 @@ task Driver::run();
         cbsq_[i].pre_task(this, ucell);
       end
 
-      ucell.display($psprintf("@%0t: Drv%0d: ", $time, PortID));
+      if (event_waitAllTrigger_ != null) begin
+        ucell.display($psprintf("@%0t: Drv%0d Wait to trigger: ", $time, PortID));
+        @event_waitAllTrigger_;
+      end else begin
+        ucell.display($psprintf("@%0t: Drv%0d: ", $time, PortID));
+      end
+
       send(ucell);
 
       // Post-transmit callbacks

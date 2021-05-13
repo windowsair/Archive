@@ -3,8 +3,8 @@
 `include "atm_cell.sv"
 
 program automatic test #(
-    parameter int NumRx = 4,
-    parameter int NumTx = 4
+    parameter int NumRx = 8,
+    parameter int NumTx = 8
 ) (
           Utopia.TB_Rx Rx [0:NumRx-1],
           Utopia.TB_Tx Tx [0:NumTx-1],

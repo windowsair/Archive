@@ -44,7 +44,7 @@ class Scb_Monitor_cbs extends Decorate_callback #(Monitor, NNI_cell);
   virtual task post_task(input Monitor mon, input NNI_cell ncell);
     CellCfgType CellCfg = top.squat.fwdtable.lut.Mem[ncell.getVPI()];
     bit isValid;
-    isValid = CellCfg.FWD != 4'b0000; // TODO: port num
+    isValid = CellCfg.FWD != 8'b0000_0000;
     scb.check_actual(ncell, mon.PortID, isValid);
   endtask : post_task
 endclass : Scb_Monitor_cbs
@@ -283,6 +283,10 @@ task Environment::wait_for_end();
     `WAIT_FOR_PORT_TRIGGERED(1)
     `WAIT_FOR_PORT_TRIGGERED(2)
     `WAIT_FOR_PORT_TRIGGERED(3)
+    `WAIT_FOR_PORT_TRIGGERED(4)
+    `WAIT_FOR_PORT_TRIGGERED(5)
+    `WAIT_FOR_PORT_TRIGGERED(6)
+    `WAIT_FOR_PORT_TRIGGERED(7)
 
     // TODO: Longer waiting time
     // begin

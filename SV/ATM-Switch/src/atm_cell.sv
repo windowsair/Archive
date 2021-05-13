@@ -69,6 +69,7 @@ class UNI_cell extends Common_cell;
   extern function UNI_cell copy();
 
   extern function bit [7:0] getVPI();
+  extern function void setVPI(bit [7:0] newVPI); // TODO: should we use input ?
 
   extern virtual function void display(input string prefix = "");
 
@@ -92,6 +93,11 @@ endfunction : post_randomize
 function bit [7:0] UNI_cell::getVPI();
   return this.VPI_;
 endfunction : getVPI
+
+
+function void UNI_cell::setVPI(bit [7:0] newVPI);
+  this.VPI_ = newVPI;
+endfunction : setVPI
 
 
 function void UNI_cell::pack(output ATMCellType to);
@@ -173,6 +179,7 @@ class NNI_cell extends Common_cell;
   extern function bit getDrop();
 
   extern function bit [11:0] getVPI();
+  extern function void setVPI(bit [11:0] newVPI);  // TODO: should we use input ?
 
   extern virtual function void display(input string prefix = "");
 
@@ -224,7 +231,11 @@ endfunction : unpack
 
 function bit [11:0] NNI_cell::getVPI();
   return this.VPI_;
-endfunction
+endfunction : getVPI
+
+function void NNI_cell::setVPI(bit [11:0] newVPI);
+  this.VPI_ = newVPI;
+endfunction : setVPI
 
 
 function void NNI_cell::display(input string prefix);
