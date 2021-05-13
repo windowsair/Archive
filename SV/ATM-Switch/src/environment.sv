@@ -137,7 +137,6 @@ endfunction : gen_cfg
 // This prevents the bug when you use a null handle
 //---------------------------------------------------------------------------
 function void Environment::build();
-
   //cpu = new(mif, cfg);
   cpu = new(mif);
 
@@ -147,7 +146,8 @@ function void Environment::build();
   drv2gen = new[numRx];
   event_genAllDone = new[numRx];
   //scb = new(cfg);
-  scb = new(cfg);
+
+  scb = new(cfg, Normal_check::getInstance()); // new (cfg, new Normal_check())   // fail....
   cov = new();
 
   foreach (gen[i]) begin
