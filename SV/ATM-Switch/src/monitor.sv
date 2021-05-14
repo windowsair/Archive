@@ -44,10 +44,12 @@ task Monitor::run();
   NNI_cell ncell;
   int delayClk;
   forever begin
-    delayClk = $urandom_range(100, 1000);
-    $display("DELAY: %d", delayClk);
-    //if (delay_)
-      //#(delayClk);
+    //delayClk = $urandom_range(0, 50);
+    delayClk = 80;
+    if (delay_) begin
+      $display("DELAY: %d", delayClk);
+      #(delayClk);
+    end
     receive(ncell);
     foreach (cbsq_[i]) cbsq_[i].post_task(this, ncell);  // Post-receive callback
   end

@@ -1,6 +1,7 @@
 `ifndef __SCOREBOARD_STRATEGY_SV__
 `define __SCOREBOARD_STRATEGY_SV__
 
+`include "color_helper.svh"
 
 typedef class Scoreboard;
 
@@ -58,6 +59,38 @@ class Normal_check extends Scoreboard_strategy;
     $finish;
   endfunction : check
 endclass : Normal_check
+
+
+class Arbitor_check extends Scoreboard_strategy;
+  static function Scoreboard_strategy getInstance();
+    Arbitor_check instance = new();
+    return instance;
+  endfunction : getInstance
+
+  function void check(Scoreboard handle, input NNI_cell ncell, input int portn,
+                      bit isValid);
+    static int port_verify = 8 - 1;
+
+    Scoreboard_strategy remain_check = Normal_check::getInstance();
+
+    int acutal_port = ncell.extraData_.TxPort_;
+
+    if (port_verify-- != acutal_port) begin
+      `RED_START
+      $display("[ERROR] Arbitor check failed. Expected port: %d, Actual port: %d", port_verify + 1, portn);
+      `RED_END
+      $finish;
+    end
+
+    if (port_verify == 0) begin
+      port_verify = 8 -1;
+    end
+
+
+    remain_check.check(handle, ncell, portn, isValid);
+
+  endfunction : check
+endclass : Arbitor_check
 
 
 `endif

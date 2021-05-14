@@ -108,18 +108,29 @@ endfunction : check_actual
 //---------------------------------------------------------------------------
 function void Scoreboard::wrap_up();
   // Look for leftover cells
+  int sz;
+  CellCfgType CellCfg;
+
   foreach (expect_cells_[i]) begin
-    if (expect_cells_[i].q.size()) begin
+    sz = expect_cells_[i].q.size();
+    foreach (expect_cells_[i].q[j]) begin
+      CellCfg = top.squat.fwdtable.lut.Mem[expect_cells_[i].q[j].getVPI()];
+      if (CellCfg.FWD == 8'b0000_0000) begin
+        sz--;
+      end
+    end
+
+    if (sz) begin
       $display("@%0t: %m cells remaining in Tx[%0d] scoreboard at end of test", $time, i);
       this.display("Unclaimed: ");
     end
   end
 
-  `RED_START
+  `BLUE_START
   $display(
       "@%0t: %m %0d expected cells, %0d cells dropped, %0d actual cells received, Maximum number of concurrent connections: %d"
           , $time, iexpect_, idrop_, iactual_, max_concurrent_);
-  `RED_END
+  `BLUE_END
 
 
 endfunction : wrap_up

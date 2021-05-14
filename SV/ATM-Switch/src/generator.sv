@@ -53,15 +53,29 @@ class UNI_generator;
 
   endfunction : new
 
+
+  virtual function UNI_cell generate_uni();
+    UNI_cell ucell;
+
+    assert(blueprint.randomize());
+    if (useSyncVPI_) begin
+      blueprint.setVPI(VPIFactory_.getVPI());
+    end
+
+    blueprint.extraData_.TxPort_ = PortID;
+
+    $cast(ucell, blueprint.copy());
+    ucell.display($psprintf("@%0t: Gen%0d: ", $time, PortID));
+
+    return ucell;
+
+  endfunction : generate_uni
+
   virtual task run();
     UNI_cell ucell;
+
     repeat (nCells) begin
-      assert (blueprint.randomize());
-      if (useSyncVPI_) begin
-        blueprint.setVPI(VPIFactory_.getVPI());
-      end
-      $cast(ucell, blueprint.copy());
-      ucell.display($psprintf("@%0t: Gen%0d: ", $time, PortID));
+      ucell = generate_uni();
       gen2drv.put(ucell);
       @drv2gen;  // Wait for driver to finish with it
     end

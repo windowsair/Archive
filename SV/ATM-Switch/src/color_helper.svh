@@ -16,7 +16,7 @@
 
 
 `define BLUE_START \
-  $display("");("%c[1;34m",27);
+  $display("%c[1;34m",27);
 
 `define BLUE_END   \
   $display("%c[0m",27);

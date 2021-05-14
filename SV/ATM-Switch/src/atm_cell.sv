@@ -5,15 +5,15 @@ typedef class UNI_cell;
 
 
 typedef struct  {
-  int port_;
+  int TxPort_;  // port of the generator
 } extraCellType;
 
 virtual class Common_cell;
-  rand bit [15:0] VCI_;
-  rand bit CLP_;
-  rand bit [2:0] PT_;
-  bit [7:0] HEC_;
-  rand bit [0:47][7:0] Payload_;
+  protected rand bit [15:0] VCI_;
+  protected rand bit CLP_;
+  protected rand bit [2:0] PT_;
+  protected bit [7:0] HEC_;
+  protected rand bit [0:47][7:0] Payload_;
 
   extraCellType extraData_;
 
@@ -130,6 +130,8 @@ function NNI_cell UNI_cell::to_NNI(input bit [11:0] nni_VPI);
   copy.HEC_ = this.HEC_;
   copy.Payload_ = this.Payload_;
 
+  copy.extraData_ = this.extraData_;
+
   copy.nni_hec();
   return copy;
 endfunction : to_NNI
@@ -145,6 +147,8 @@ function UNI_cell UNI_cell::copy();
   uni_copy.PT_ = this.PT_;
   uni_copy.HEC_ = this.HEC_;
   uni_copy.Payload_ = this.Payload_;
+
+  uni_copy.extraData_ = this.extraData_;
 
   return uni_copy;
 endfunction : copy

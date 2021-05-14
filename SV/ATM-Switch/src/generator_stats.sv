@@ -1,6 +1,7 @@
 `ifndef __GENERATOR_STATS__SV__
 `define __GENERATOR_STATS__SV__
 
+// Need to be run indepenedently
 class Generator_stats;
   semaphore sem_ = null;
 
@@ -11,7 +12,7 @@ class Generator_stats;
     this.event_triggerAll_ = triggerAll;
   endfunction : new
 
-  task run();
+  virtual task run();
     forever begin
       sem_.get(8);
       ->event_triggerAll_;
