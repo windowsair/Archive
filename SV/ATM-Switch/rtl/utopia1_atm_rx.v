@@ -2,12 +2,12 @@
 module utopia1_atm_rx(
                        clk            ,
 					   rst_n          ,
-							          
+
                        soc            ,
 					   data           ,
 					   clav           ,
 					   en             ,
-							          
+
 					   rxreq          ,
 					   rxack          ,
 					   uni_GFC        ,
@@ -17,17 +17,17 @@ module utopia1_atm_rx(
 					   uni_PT         ,
 					   uni_HEC        ,
 					   uni_Payload
-					        
+
                       );
 
 input                  clk                ;
 input                  rst_n              ;
-								          
+
 input                  soc                ;
 input      [7:0]       data               ;
 input                  clav               ;
 output                 en                 ;
-								          
+
 output                 rxreq              ;
 input                  rxack              ;
 
@@ -39,7 +39,7 @@ output     [2:0]       uni_PT             ;
 output     [7:0]       uni_HEC            ;
 output     [8*48-1:0]  uni_Payload        ;
 
-///////////////////////////////////////////////////	
+///////////////////////////////////////////////////
 
 reg        [3:0]       uni_GFC            ;
 reg        [7:0]       uni_VPI            ;
@@ -49,12 +49,12 @@ reg        [2:0]       uni_PT             ;
 reg        [7:0]       uni_HEC            ;
 reg        [8*48-1:0]  uni_Payload        ;
 
-///////////////////////////////////////////////////	
+///////////////////////////////////////////////////
 
 reg        [5:0]       PayloadIndex   ;
-  
-///////////////////////////////////////////////////	
-  
+
+///////////////////////////////////////////////////
+
 parameter              reset      = 4'h0   ,
                        soc_frm    = 4'h1   ,
 					   vpi_vci    = 4'h2   ,
@@ -104,8 +104,8 @@ reg                    en           ;
                       end
         hec         : if (clav) begin
                           uni_HEC          <= data    ;
-                          UtopiaStatus     <= payload ; 
-                          PayloadIndex     <= 0       ;  
+                          UtopiaStatus     <= payload ;
+                          PayloadIndex     <= 0       ;
                       end
         payload     : if (clav) begin
                           //uni_Payload[PayloadIndex*8 +7:PayloadIndex*8] <= data;
@@ -121,14 +121,14 @@ reg                    en           ;
 			             rxreq        <= 1     ;
 	                  end
         ack         : if(rxack) begin
-		                 UtopiaStatus <= reset ; 
-				 rxreq        <= 0     ;        
-                                 en        <= 1     ;
-		       end	 
+		                 UtopiaStatus <= reset ;
+				             rxreq        <= 0     ;
+                     en        <= 1     ;
+		       end
         default     : UtopiaStatus <= reset;
       endcase
     end
-  
 
 
-endmodule					  
+
+endmodule

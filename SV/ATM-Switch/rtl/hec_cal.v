@@ -1,4 +1,3 @@
-
 module hec_cal(
                hec_in ,
 			   hec_out
@@ -10,9 +9,12 @@ output  [7:0]  hec_out ;
    //////////////////////////////////////////////////////////
    /////////// Generate the CRC-8 syndrom table /////////////
    //////////////////////////////////////////////////////////
+   //产生一个CRC的报表
+   //其原理是对于一个8位宽的数据，只有当高位为1时，才需要异或影响因子
+   //使用initial初始化并不会综合出一个具体电路，它会使得4个ROM进行初始化
    reg  [7:0] syndrom[0:255];
    reg  [7:0] sndrm;
-   
+
    integer    i ;
    initial begin
 
@@ -27,25 +29,6 @@ output  [7:0]  hec_out ;
 	   syndrom[i] = sndrm;
      end
    end
-
-
-
-  //
-  // Function to compute the HEC value
-  //
- /*
-  function hec ;
-    input  [31:0]  hdr ;
-    reg   [7:0]   RtnCode = 8'h00;
-    repeat (4) begin
-      RtnCode = syndrom[RtnCode ^ hdr[31:24]];
-      hdr = hdr << 8;
-    end
-    RtnCode = RtnCode ^ 8'h55;
-    return RtnCode;
-  endfunction
- */
-  
   /* .................... CRC ................ */
   wire [31:0] hdr = hec_in;
   wire [7:0]  RtnCode0 = syndrom[hdr[31:24]];
@@ -56,5 +39,5 @@ output  [7:0]  hec_out ;
 
   assign   hec_out = RtnCode ;
 
-  
-endmodule  
+
+endmodule
