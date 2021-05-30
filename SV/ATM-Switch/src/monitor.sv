@@ -14,7 +14,7 @@ class Monitor;
   int PortID;
   bit delay_;
 
-  extern function new(input vUtopiaTx Tx, input int PortID, input bit isDelay=1);
+  extern function new(input vUtopiaTx Tx, input int PortID, input bit isDelay = 1);
   extern function addDecorate(Decorate_callback#(Monitor, NNI_cell) cb);
 
   extern task run();
@@ -25,7 +25,7 @@ endclass : Monitor
 //---------------------------------------------------------------------------
 // new(): construct an object
 //---------------------------------------------------------------------------
-function Monitor::new(input vUtopiaTx Tx, input int PortID, input bit isDelay=1);
+function Monitor::new(input vUtopiaTx Tx, input int PortID, input bit isDelay = 1);
   this.Tx = Tx;
   this.PortID = PortID;
   this.delay_ = isDelay;
@@ -44,8 +44,8 @@ task Monitor::run();
   NNI_cell ncell;
   int delayClk;
   forever begin
-    //delayClk = $urandom_range(0, 50);
-    delayClk = 80;
+    delayClk = $urandom_range(50, 500);
+    //delayClk = 80;
     if (delay_) begin
       $display("DELAY: %d", delayClk);
       #(delayClk);
@@ -78,6 +78,8 @@ task Monitor::receive(output NNI_cell ncell);
     end
   end
   j = 0;
+
+  Tx.cbt.clav <= 0;
 
   ncell = new();
   ncell.unpack(pkt_cmp);

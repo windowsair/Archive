@@ -69,24 +69,56 @@ class Arbitor_check extends Scoreboard_strategy;
 
   function void check(Scoreboard handle, input NNI_cell ncell, input int portn,
                       bit isValid);
-    static int port_verify = 8 - 1;
 
     Scoreboard_strategy remain_check = Normal_check::getInstance();
 
-    int acutal_port = ncell.extraData_.TxPort_;
+    // int portAcutal = ncell.extraData_.TxPort_; // opps, we can not get any info from received cell
 
-    if (port_verify-- != acutal_port) begin
+    int portExpect = 8;
+    int roundMin = 2147483647; // INT32_MAX
+
+    NNI_cell tmpCell;
+    NNI_cell expectCell = null;
+
+    // find expect port.
+    if (handle.expect_cells_[portn].q.size() == 0) begin
+      $display("@%0t: ERROR: %m cell not found because scoreboard for TX%0d empty", $time, portn);
+      ncell.display("Not Found: ");
+      return;
+    end
+
+    foreach (handle.expect_cells_[portn].q[i]) begin
+      tmpCell = handle.expect_cells_[portn].q[i];
+      $display("[DEBUG] port : %d round: %d", tmpCell.extraData_.TxPort_,
+      tmpCell.extraData_.round_);
+
+      if(tmpCell.extraData_.TxPort_ < portExpect) begin
+        roundMin = tmpCell.extraData_.round_;
+        portExpect = tmpCell.extraData_.TxPort_;
+        expectCell = tmpCell;
+      end
+      else if (tmpCell.extraData_.TxPort_ == portExpect && tmpCell.extraData_.round_ < roundMin) begin
+        roundMin = tmpCell.extraData_.round_;
+        expectCell = tmpCell;
+      end
+    end
+
+
+    $display("find port %d, round %d", portExpect, roundMin);
+
+    if (expectCell == null || !expectCell.compare(ncell)) begin
       `RED_START
-      $display("[ERROR] Arbitor check failed. Expected port: %d, Actual port: %d", port_verify + 1, portn);
+      $display("[ERROR] Arbitor check failed.");
+
+      expectCell.display("expect necll:");
+      ncell.display("raw ncell:");
       `RED_END
       $finish;
     end
 
-    if (port_verify == 0) begin
-      port_verify = 8 -1;
-    end
+    $display("Arbitor check success.");
 
-
+    // delete it from queue
     remain_check.check(handle, ncell, portn, isValid);
 
   endfunction : check

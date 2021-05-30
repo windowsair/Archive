@@ -4,8 +4,9 @@ typedef class NNI_cell;
 typedef class UNI_cell;
 
 
-typedef struct  {
+typedef struct {
   int TxPort_;  // port of the generator
+  int round_;  // How many times is this cell generated
 } extraCellType;
 
 virtual class Common_cell;
@@ -69,14 +70,14 @@ class UNI_cell extends Common_cell;
   rand bit [7:0] VPI_;
 
   extern function new();
-  extern function void post_randomize(); // -> compute HEC
+  extern function void post_randomize();  // -> compute HEC
 
   extern function void pack(output ATMCellType to);
   extern function NNI_cell to_NNI(input bit [11:0] nni_VPI);
   extern function UNI_cell copy();
 
   extern function bit [7:0] getVPI();
-  extern function void setVPI(bit [7:0] newVPI); // TODO: should we use input ?
+  extern function void setVPI(bit [7:0] newVPI);  // TODO: should we use input ?
 
   extern virtual function void display(input string prefix = "");
 
@@ -162,7 +163,7 @@ function void UNI_cell::display(input string prefix);
 
 
   this.pack(p);
-  $write("%s", prefix);
+  $write("%s Raw Mem: ", prefix);
   foreach (p.Mem[i]) $write("%x ", p.Mem[i]);
   $display;
   //$write("%sUNI Payload=%x %x %x %x %x %x ...",
@@ -184,6 +185,7 @@ class NNI_cell extends Common_cell;
   extern function new();
   extern function void nni_hec();
   extern function bit compare(input NNI_cell cmp);
+  extern function void pack(output ATMCellType to);
   extern function void unpack(input ATMCellType from);
 
   extern function void setDrop();
@@ -231,6 +233,15 @@ function bit NNI_cell::compare(input NNI_cell cmp);
 endfunction : compare
 
 
+function void NNI_cell::pack(output ATMCellType to);
+  to.nni.VPI = this.VPI_;
+  to.nni.VCI = this.VCI_;
+  to.nni.CLP = this.CLP_;
+  to.nni.PT = this.PT_;
+  to.nni.HEC = this.HEC_;
+  to.nni.Payload = this.Payload_;
+endfunction : pack
+
 function void NNI_cell::unpack(input ATMCellType from);
   this.VPI_ = from.nni.VPI;
   this.VCI_ = from.nni.VCI;
@@ -255,8 +266,8 @@ function void NNI_cell::display(input string prefix);
   $display("%sNNI , VPI=%x, VCI=%x, CLP=%b, PT=%x, HEC=%x, Payload[0]=%x", prefix, VPI_, VCI_, CLP_,
            PT_, HEC_, Payload_[0]);
 
-  //this.pack(p);
-  $write("%s", prefix);
+  this.pack(p);
+  $write("%s Raw Mem: ", prefix);
   foreach (p.Mem[i]) $write("%x ", p.Mem[i]);
   $display;
   //$write("%sUNI Payload=%x %x %x %x %x %x ...",

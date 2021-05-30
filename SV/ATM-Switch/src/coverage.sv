@@ -12,11 +12,11 @@ class Coverage;
     x_cp: coverpoint src;
     y_cp: coverpoint fwd;
 
-    x_y_cross : cross x_cp, y_cp {
-      ignore_bins ignore_fwd = x_y_cross with ( ((y_cp >> x_cp) & 1) == 0 );
-      // Receiving data on a port indicates that fwd is 1 on the bit corresponding to that port.
-      // For those cases that are 0, we must ignore them, and the determination of whether
-      // they should not be received we do not make in coverage.
+    x_y_cross : cross x_cp, y_cp{
+      ignore_bins ignore_fwd = x_y_cross with (((y_cp >> x_cp) & 1) == 0);
+    // Receiving data on a port indicates that fwd is 1 on the bit corresponding to that port.
+    // For those cases that are 0, we must ignore them, and the determination of whether
+    // they should not be received we do not make in coverage.
     }
   endgroup : CG_Forward
 

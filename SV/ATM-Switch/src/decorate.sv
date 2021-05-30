@@ -14,9 +14,9 @@ class Scb_Driver_cbs extends Decorate_callback #(Driver, UNI_cell);
   endfunction : new
 
   // Send received cell to scoreboard
-  virtual task post_task(input Driver drv, input UNI_cell ucell);
+  virtual task pre_task(input Driver drv, input UNI_cell ucell);
     scb.save_expected(ucell);
-  endtask : post_task
+  endtask : pre_task
 endclass : Scb_Driver_cbs
 
 
@@ -33,7 +33,9 @@ class Arbitor_Driver_cbs extends Decorate_callback #(Driver, UNI_cell);
   // Wait for all packages to be ready
   virtual task pre_task(input Driver drv, input UNI_cell ucell);
     produce_done_sem_.put(1);
+    $display("wait start");
     @wait_event_;
+    $display("wait done");
   endtask : pre_task
 endclass : Arbitor_Driver_cbs
 

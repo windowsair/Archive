@@ -7,7 +7,7 @@ class Generator_stats;
 
   event event_triggerAll_;
 
-  function new(input semaphore sem, input event triggerAll);
+  function new(event triggerAll, semaphore sem);
     this.sem_ = sem;
     this.event_triggerAll_ = triggerAll;
   endfunction : new
@@ -15,6 +15,7 @@ class Generator_stats;
   virtual task run();
     forever begin
       sem_.get(8);
+      $display("[INFO] generator trigger all!");
       ->event_triggerAll_;
       // sem_.put(1); // should not put back cuz only this thread will get it
     end

@@ -36,17 +36,20 @@ class UNI_generator;
   mailbox gen2drv;  // Mailbox to driver for cells
   event drv2gen;  // Event from driver when done with cell
   int nCells;  // Number of cells for this generator to create
-  int PortID;  // Which Rx port are we generating?
+  int PortID_;  // Which Rx port are we generating?
   event gen_done;
+
+  int round_;
 
   function new(input mailbox gen2drv, input event drv2gen, input int nCells, input int PortID,
   ref event event_gen_done, input bit useSyncVPI=0);
     this.gen2drv = gen2drv;
     this.drv2gen = drv2gen;
     this.nCells = nCells;
-    this.PortID = PortID;
+    this.PortID_ = PortID;
     this.gen_done = event_gen_done;
     this.useSyncVPI_ = useSyncVPI;
+    this.round_ = 0;
     blueprint = new();
     VPIFactory_ = new();
 
@@ -62,10 +65,11 @@ class UNI_generator;
       blueprint.setVPI(VPIFactory_.getVPI());
     end
 
-    blueprint.extraData_.TxPort_ = PortID;
+    blueprint.extraData_.TxPort_ = PortID_;
+    blueprint.extraData_.round_ = round_++;
 
     $cast(ucell, blueprint.copy());
-    ucell.display($psprintf("@%0t: Gen%0d: ", $time, PortID));
+    ucell.display($psprintf("@%0t: Gen%0d Round %0d: ", $time, PortID_, round_ - 1));
 
     return ucell;
 

@@ -61,7 +61,9 @@ function void Scoreboard::save_expected(UNI_cell ucell);
   u2ncell = new();
   u2ncell = ucell.to_NNI(CellFwd.VPI);
 
-  $display("@%0t: Scb save: VPI=%0x, Forward=%b", $time, CellFwd.VPI, CellFwd.FWD);
+  $display("@%0t: Scb save: VPI=%0x, Forward=%b, round=%d, Txport=%d", $time, CellFwd.VPI,
+           CellFwd.FWD, u2ncell.extraData_.TxPort_, u2ncell.extraData_.round_);
+  u2ncell.display("NNI save:");
 
   isValid = CellFwd.FWD != 8'b0000_0000;
 
