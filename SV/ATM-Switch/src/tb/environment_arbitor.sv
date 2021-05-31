@@ -106,7 +106,7 @@ function void Environment_arbitor::build();
 
   foreach (gen[i]) begin
     gen2drv[i] = new();
-    gen[i] = new(gen2drv[i], drv2gen[i], i + 1, i, event_genAllDone[i]);
+    gen[i] = new(gen2drv[i], drv2gen[i], 1, i, event_genAllDone[i]);
     drv[i] = new(gen2drv[i], drv2gen[i], Rx[i], i);
   end
 

@@ -1,9 +1,7 @@
-# Makefile for SystemVerilog Testbench Lab1
-LAB_DIR = mywork
-RTL= ../../rtl/hec_cal.v ../../rtl/LookupTable.v ../../rtl/utopia1_atm_rx.v ../../rtl/utopia1_atm_tx.v ../../rtl/FwdLkp.v ../../rtl/arbitor.v ../../rtl/squat.v ../../rtl/fifo.v
-SVTB = ./top.sv ./cpu_ifc.svh ./Utopia.svh
-SVCM_NORMAL = ./test.sv ./environment.sv ./config.sv ./generator.sv ./driver.sv ./monitor.sv ./scoreboard.sv ./coverage.sv ./generator_stats.sv
-SVCM_ARBITOR = ./test_arbitor.sv ./environment_arbitor.sv ./config.sv ./generator.sv ./driver.sv ./monitor.sv ./scoreboard.sv ./coverage.sv ./generator_stats.sv
+RTL= ../src/rtl/hec_cal.v ../src/rtl/LookupTable.v ../src/rtl/utopia1_atm_rx.v ../src/rtl/utopia1_atm_tx.v ../src/rtl/FwdLkp.v ../src/rtl/arbitor.v ../src/rtl/squat.v ../src/rtl/fifo.v
+SVTB = ../src/tb/top.sv ../src/tb/cpu_ifc.svh ../src/tb/Utopia.svh
+SVCM_NORMAL = ../src/tb/test.sv ../src/tb/environment.sv ../src/tb/config.sv ../src/tb/generator.sv ../src/tb/driver.sv ../src/tb/monitor.sv ../src/tb/scoreboard.sv ../src/tb/coverage.sv ../src/tb/generator_stats.sv
+SVCM_ARBITOR = ../src/tb/test_arbitor.sv ../src/tb/environment_arbitor.sv ../src/tb/config.sv ../src/tb/generator.sv ../src/tb/driver.sv ../src/tb/monitor.sv ../src/tb/scoreboard.sv ../src/tb/coverage.sv ../src/tb/generator_stats.sv
 # seed = 123456
 # use system timestamp
 
@@ -17,10 +15,10 @@ run:
 	./simv -l simv.log +ntb_random_seed=`date +%s`
 
 compile_normal:
-	vcs -full64 -l vcs.log -sverilog -kdb +lint=TFIPC-L -debug_access+all $(SVTB) $(RTL) $(SVCM_NORMAL) +vcs+vcdpluson -lca
+	vcs -full64 -l vcs.log -sverilog -kdb +lint=TFIPC-L -debug_access+all $(SVTB) $(RTL) $(SVCM_NORMAL) +vcs+vcdpluson -lca +incdir+../src/tb
 
 compile_arbitor:
-	vcs -full64 -l vcs.log -sverilog -kdb +lint=TFIPC-L -debug_access+all $(SVTB) $(RTL) $(SVCM_ARBITOR) +vcs+vcdpluson -lca
+	vcs -full64 -l vcs.log -sverilog -kdb +lint=TFIPC-L -debug_access+all $(SVTB) $(RTL) $(SVCM_ARBITOR) +vcs+vcdpluson -lca +incdir+../src/tb
 
 verdi:
 	verdi -ssf novas.fsdb -undockWin -nologo &
@@ -35,16 +33,12 @@ debug:
 	./simv -l simv.log -gui=dve +ntb_random_seed=$(seed)
 
 solution: clean
-	cp -f ../../solutions/$(LAB_DIR)/*.sv .
 
 clean:
 	rm -rf simv* csrc* *.tmp *.vpd *.key *.log *hdrs.h *.fsdb verdiLog elabcomLog novas.* *.dat DVEfiles
 
 nuke: clean
 	rm -rf *.v* *.sv include .*.lock .*.old DVE* *.tcl *.h *.rc *.ses *.ses.* *.dat
-	cp -f ../../solutions/$(LAB_DIR)/router_io.sv.orig router_io.sv
-	cp -f ../../solutions/$(LAB_DIR)/router_test_top.sv.orig router_test_top.sv
-	cp -f ../../solutions/$(LAB_DIR)/test.sv.orig test.sv
 
 help:
 	@echo ==========================================================================
