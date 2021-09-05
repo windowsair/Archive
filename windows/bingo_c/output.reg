@@ -1,0 +1,1514 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows]
+"LoadAppInit_DLLs"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"DevicePath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,69,00,6e,00,66,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"ProgramFilesDir"="C:\\Program Files"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"shell"="Explorer.exe"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\ComputerName\ActiveComputerName]
+"ComputerName"="BINGO-COMPUTER"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Setup]
+"SystemSetupInProgress"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="2000"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Local AppData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,20,00,53,00,65,00,74,00,74,00,69,00,6e,00,67,00,73,00,5c,00,41,00,70,00,70,00,6c,00,69,00,63,00,61,00,74,00,69,00,6f,00,6e,00,20,00,44,00,61,00,74,00,61,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Offline Files]
+@="{750fdf0e-2a26-11d1-a3ea-080036587f03}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\COM3]
+"Com+Enabled"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ServerAdminUI"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\HighContrast]
+"Flags"="126"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Desktop"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,4c,68,62,97,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Programs"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,5c,00,0b,7a,8f,5e,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Start Menu"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"AppData"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,41,00,70,00,70,00,6c,00,69,00,63,00,61,00,74,00,69,00,6f,00,6e,00,20,00,44,00,61,00,74,00,61,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\>{22d6f312-b0f6-11d0-94ab-0080c74c7e95}]
+"StubPath"="C:\\WINDOWS\\inf\\unregmp2.exe /ShowWMP"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\>{22d6f312-b0f6-11d0-94ab-0080c74c7e95}]
+"IsInstalled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"StubPath"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,65,00,67,00,73,00,76,00,72,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,2f,00,73,00,20,00,2f,00,6e,00,20,00,2f,00,69,00,3a,00,2f,00,55,00,73,00,65,00,72,00,49,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,20,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,74,00,68,00,65,00,6d,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"IsInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"Version"="1,1,1,7"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"Locale"="CN"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"Version"="1,1,1,7"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{2C7339CF-2B09-4501-B3F3-F3508C9228ED}]
+"Locale"="CN"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"StubPath"=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,25,00,5c,00,4f,00,75,00,74,00,6c,00,6f,00,6f,00,6b,00,20,00,45,00,78,00,70,00,72,00,65,00,73,00,73,00,5c,00,73,00,65,00,74,00,75,00,70,00,35,00,30,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,41,00,50,00,50,00,3a,00,4f,00,45,00,20,00,2f,00,43,00,41,00,4c,00,4c,00,45,00,52,00,3a,00,57,00,49,00,4e,00,4e,00,54,00,20,00,2f,00,75,00,73,00,65,00,72,00,20,00,2f,00,69,00,6e,00,73,00,74,00,61,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+@="Microsoft Outlook Express 6"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"IsInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"CloneUser"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"Version"="6,0,2900,5512"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"Locale"="CN"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"Version"="6,0,2900,5512"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"Locale"="CN"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{44BBA840-CC51-11CF-AAFA-00AA00B6015C}]
+"Username"="bingo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"StubPath"="rundll32.exe advpack.dll,LaunchINFSection C:\\WINDOWS\\INF\\wmp11.inf,PerUserStub"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"IsInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"Version"="11,0,5721,5145"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"Locale"="CHS"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"Version"="11,0,5721,5145"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{6BF52A52-394A-11d3-B153-00C04F79FAA6}]
+"Locale"="CHS"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"StubPath"=hex(2):72,00,65,00,67,00,73,00,76,00,72,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,2f,00,73,00,20,00,2f,00,6e,00,20,00,2f,00,69,00,3a,00,55,00,20,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"IsInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"Version"="6,0,2900,5512"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"Locale"="cn"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"Version"="6,0,2900,5512"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4340}]
+"Locale"="cn"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"StubPath"="C:\\WINDOWS\\system32\\ie4uinit.exe -BaseSettings"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"LocalizedName"="@C:\\WINDOWS\\system32\\ie4uinit.exe.mui,-20"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"IsInstalled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"Version"="8,0,6001,18702"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"Locale"="en"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"Version"="8,0,6001,18702"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Active Setup\Installed Components\{89820200-ECBD-11cf-8B85-00AA005B4383}]
+"Locale"="en"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"StubPath"="C:\\WINDOWS\\system32\\Rundll32.exe C:\\WINDOWS\\system32\\mscories.dll,Install"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Active Setup\Installed Components\{89B4C1CD-B018-4511-B0A1-5476DBF70820}]
+"IsInstalled"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"CleanShutdown"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{9BA05972-F6A8-11CF-A442-00A0C90A8F39}]
+@="ShellWindows"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa]
+"EveryoneIncludesAnonymous"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\Defaults\Provider\Microsoft Strong Cryptographic Provider]
+"Type"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\Defaults\Provider\Microsoft Strong Cryptographic Provider]
+"Image Path"="rsaenh.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography]
+"MachineGuid"="302f47ea-5c47-42d9-92ab-8036e99311a3"
+
+[HKEY_CLASSES_ROOT\Interface\{00000134-0000-0000-C000-000000000046}\ProxyStubClsid32]
+@="{00000320-0000-0000-C000-000000000046}"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarSizeMove"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"StartMenuInit"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Locale]
+"00000804"="a"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Nls\Language Groups]
+"a"="1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\LanguagePack\SurrogateFallback]
+"Plane2"="汉仪旗黑-55"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects2]
+"Settings"=hex:28,00,00,00,ff,ff,ff,ff,02,00,00,00,03,00,00,00,6b,00,00,\
+00,1e,00,00,00,00,00,00,00,e2,02,00,00,56,05,00,00,00,03,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4D-521C-11D0-B792-00A0C90312E1}]
+@="外壳 Rebar BandSite"
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4D-521C-11D0-B792-00A0C90312E1}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4D-521C-11D0-B792-00A0C90312E1}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\ShellFolder]
+"HideOnDesktopPerUser"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{DD522ACC-F821-461A-A407-50B198B896DC}]
+@="HardwareDeviceNotif"
+
+[HKEY_CLASSES_ROOT\Interface\{CC271F08-E1DD-49BF-87CC-CD6DCF3F3D9F}\ProxyStubClsid32]
+@="{B8DA6310-E19B-11D0-933C-00A0C90DCAA9}"
+
+[HKEY_CLASSES_ROOT\CLSID\{C90250F3-4D7D-4991-9B69-A5C5BC1C2AE6}]
+@="PSFactoryBuffer"
+
+[HKEY_CLASSES_ROOT\CLSID\{C90250F3-4D7D-4991-9B69-A5C5BC1C2AE6}\InProcServer32]
+@="C:\\Program Files\\Internet Explorer\\ieproxy.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{C90250F3-4D7D-4991-9B69-A5C5BC1C2AE6}\InProcServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\Interface\{EE93D145-9B4E-480C-8385-1E8119A6F7B2}\ProxyStubClsid32]
+@="{B8DA6310-E19B-11D0-933C-00A0C90DCAA9}"
+
+[HKEY_CLASSES_ROOT\Drive\shellex\FolderExtensions\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}]
+"DriveMask"=dword:00000020
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\services\LDAP]
+"LdapClientIntegrity"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"ShellState"=hex:24,00,00,00,3a,28,01,00,00,00,00,00,00,00,00,00,00,00,00,\
+00,01,00,00,00,0d,00,00,00,00,00,00,00,02,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Hidden"=dword:00000002
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowCompColor"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DontPrettyPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowInfoTip"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideIcons"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"MapNetDrvBtn"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"WebView"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Filter"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowSuperHidden"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"SeparateProcess"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"NoNetCrawling"=dword:00000001
+
+[HKEY_CLASSES_ROOT\Directory]
+"AlwaysShowExt"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4E-521C-11D0-B792-00A0C90312E1}]
+@="Shell Band Site Menu"
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4E-521C-11D0-B792-00A0C90312E1}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Desktop"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,4c,68,62,97,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{ECD4FC4E-521C-11D0-B792-00A0C90312E1}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\ShellFolder]
+"QueryForOverlay"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Personal"=hex(2):46,00,3a,00,5c,00,4d,00,79,00,62,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"NetHood"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,4e,00,65,00,74,00,48,00,6f,00,6f,00,64,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\ShellFolder]
+"Attributes"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{21EC2020-3AEA-1069-A2DD-08002B30309D}\ShellFolder]
+"WantsFORDISPLAY"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"TaskbarWinXP"=hex:0c,00,00,00,08,00,00,00,03,00,00,00,00,00,00,00,b0,e2,2b,\
+d8,64,57,d0,11,a9,6e,00,c0,4f,d7,05,a2,22,00,1c,00,0a,10,00,00,1a,00,00,00,\
+01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,4c,00,00,00,01,14,02,00,00,\
+00,00,00,c0,00,00,00,00,00,00,46,81,00,00,00,11,00,00,00,f0,2f,92,98,39,c3,\
+ca,01,62,8d,34,7a,24,75,d0,01,62,8d,34,7a,24,75,d0,01,00,00,00,00,00,00,00,\
+00,01,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,ed,01,14,00,1f,50,e0,4f,\
+d0,20,ea,3a,69,10,a2,d8,08,00,2b,30,30,9d,19,00,2f,43,3a,5c,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,00,00,00,00,00,00,5c,00,31,00,00,00,00,00,6e,46,07,\
+1d,10,00,44,4f,43,55,4d,45,7e,31,00,00,44,00,03,00,04,00,ef,be,98,39,f9,29,\
+6e,46,07,1d,14,00,00,00,44,00,6f,00,63,00,75,00,6d,00,65,00,6e,00,74,00,73,\
+00,20,00,61,00,6e,00,64,00,20,00,53,00,65,00,74,00,74,00,69,00,6e,00,67,00,\
+73,00,00,00,18,00,36,00,31,00,00,00,00,00,8d,46,6b,4f,10,00,62,69,6e,67,6f,\
+00,22,00,03,00,04,00,ef,be,6e,3c,b8,2d,8d,46,6b,4f,14,00,00,00,62,00,69,00,\
+6e,00,67,00,6f,00,00,00,14,00,50,00,31,00,00,00,00,00,f0,46,da,35,10,00,41,\
+50,50,4c,49,43,7e,31,00,00,38,00,03,00,04,00,ef,be,6e,3c,b8,2d,f0,46,da,35,\
+14,00,00,00,41,00,70,00,70,00,6c,00,69,00,63,00,61,00,74,00,69,00,6f,00,6e,\
+00,20,00,44,00,61,00,74,00,61,00,00,00,18,00,42,00,31,00,00,00,00,00,54,43,\
+6b,3d,14,00,4d,49,43,52,4f,53,7e,31,00,00,2a,00,03,00,04,00,ef,be,6e,3c,b8,\
+2d,54,43,6b,3d,14,00,00,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,\
+74,00,00,00,18,00,52,00,31,00,00,00,00,00,6e,3c,18,8f,10,00,49,4e,54,45,52,\
+4e,7e,31,00,00,3a,00,03,00,04,00,ef,be,6e,3c,b8,2d,6e,3c,18,8f,14,00,00,00,\
+49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,45,00,78,00,70,00,6c,\
+00,6f,00,72,00,65,00,72,00,00,00,18,00,48,00,31,00,00,00,00,00,4b,46,a5,90,\
+11,00,51,55,49,43,4b,4c,7e,31,00,00,30,00,03,00,04,00,ef,be,6e,3c,b8,2d,4b,\
+46,a5,90,14,00,00,00,51,00,75,00,69,00,63,00,6b,00,20,00,4c,00,61,00,75,00,\
+6e,00,63,00,68,00,00,00,18,00,00,00,60,00,00,00,03,00,00,a0,58,00,00,00,00,\
+00,00,00,62,69,6e,67,6f,2d,63,6f,6d,70,75,74,65,72,00,00,08,66,3d,c4,97,ba,\
+1f,47,a8,ff,41,9c,6e,2c,16,5b,77,ce,57,ea,2c,2f,df,11,91,62,00,24,54,26,f7,\
+6a,08,66,3d,c4,97,ba,1f,47,a8,ff,41,9c,6e,2c,16,5b,77,ce,57,ea,2c,2f,df,11,\
+91,62,00,24,54,26,f7,6a,10,00,00,00,05,00,00,a0,1a,00,00,00,0f,01,00,00,00,\
+00,00,00,00,00,00,00,60,07,00,00,00,00,00,00,1e,00,00,00,00,00,00,00,00,00,\
+00,00,1e,00,00,00,00,00,00,00,01,00,00,00,01,00,00,00,aa,4f,28,68,48,6a,d0,\
+11,8c,78,00,c0,4f,d9,18,b4,97,03,00,00,60,0d,00,00,00,00,00,00,1e,00,00,00,\
+00,00,00,00,00,00,00,00,1e,00,00,00,00,00,00,00,01,00,00,00,02,00,00,00,8b,\
+8a,0d,54,3f,1c,32,4e,81,32,53,0f,6a,50,20,90,59,00,00,00,60,05,00,00,00,00,\
+00,00,1c,00,00,00,00,00,00,00,00,00,00,00,1c,00,00,00,00,00,00,00,01,00,00,\
+00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"PrintHood"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,50,00,72,00,69,00,6e,00,74,00,48,00,6f,00,6f,00,64,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{35786D3C-B075-49B9-88DD-029876E11C01}\ShellFolder]
+"WantsParseDisplayName"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ListviewAlphaSelect"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ListviewShadow"=dword:00000001
+
+[HKEY_CLASSES_ROOT\CLSID\{4657278A-411B-11D2-839A-00C04FD918D0}]
+@="Shell Drag and Drop helper"
+
+[HKEY_CLASSES_ROOT\CLSID\{4657278A-411B-11D2-839A-00C04FD918D0}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,48,00,45,00,4c,00,4c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{4657278A-411B-11D2-839A-00C04FD918D0}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3800-BD81-11D0-A3A5-00C04FD706EC}]
+@="后台任务计划程序"
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3800-BD81-11D0-A3A5-00C04FD706EC}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3800-BD81-11D0-A3A5-00C04FD706EC}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_NotifyNewApps"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{540D8A8B-1C3F-4E32-8132-530F6A502090}]
+@="语言栏"
+
+[HKEY_CLASSES_ROOT\CLSID\{540D8A8B-1C3F-4E32-8132-530F6A502090}\InProcServer32]
+@="C:\\WINDOWS\\system32\\msutb.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{A2A9545D-A0C2-42B4-9708-A0B2BADD77C8}]
+@="附到「开始」菜单"
+
+[HKEY_CLASSES_ROOT\CLSID\{540D8A8B-1C3F-4E32-8132-530F6A502090}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{A2A9545D-A0C2-42B4-9708-A0B2BADD77C8}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,48,00,45,00,4c,00,4c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{A2A9545D-A0C2-42B4-9708-A0B2BADD77C8}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CURRENT_USER\Software\Microsoft\CTF\MSUTB]
+"Left"=dword:00000280
+
+[HKEY_CURRENT_USER\Software\Microsoft\CTF\MSUTB]
+"Top"=dword:00000258
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Startup"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,5c,00,0b,7a,8f,5e,5c,00,2f,54,a8,52,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Startup"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,5c,00,0b,7a,8f,5e,5c,00,2f,54,a8,52,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileAssociation]
+"AddRemoveApps"="SETUP.EXE;INSTALL.EXE;ISUNINST.EXE;UNWISE.EXE;UNWISE32.EXE;ST5UNST.EXE;RUNDLL32.EXE;MSOOBE.EXE;LNKSTUB.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileAssociation]
+"AddRemoveNames"="文档;帮助;安装;详细信息;自述文件;自述文件;先阅读;安装程序;支持;新功能;删除"
+
+[HKEY_CLASSES_ROOT\.lnk]
+@="lnkfile"
+
+[HKEY_CLASSES_ROOT\lnkfile\shellex\IconHandler]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\lnkfile\CLSID]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CLASSES_ROOT\lnkfile]
+"NeverShowExt"=""
+
+[HKEY_CLASSES_ROOT\.URL]
+@="InternetShortcut"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\ShellEx\IconHandler]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\InternetShortcut\CLSID]
+@="{FBF23B40-E3F0-101B-8488-00AA003E56F8}"
+
+[HKEY_CLASSES_ROOT\InternetShortcut]
+"IsShortcut"=""
+
+[HKEY_CLASSES_ROOT\InternetShortcut]
+"NeverShowExt"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Start Menu"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Programs"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,0c,30,00,5f,cb,59,0d,30,dc,83,55,53,5c,00,0b,7a,8f,5e,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Recent"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,52,00,65,00,63,00,65,00,6e,00,74,00,00,00
+
+[HKEY_CLASSES_ROOT\.exe]
+@=hex(2):65,00,78,00,65,00,66,00,69,00,6c,00,65,00,00,00
+
+[HKEY_CLASSES_ROOT\.exe]
+"Content Type"="application/x-msdownload"
+
+[HKEY_CLASSES_ROOT\CLSID\{DD313E04-FEFF-11D1-8ECD-0000F87A470C}]
+@="用户帮助"
+
+[HKEY_CLASSES_ROOT\CLSID\{DD313E04-FEFF-11D1-8ECD-0000F87A470C}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{DD313E04-FEFF-11D1-8ECD-0000F87A470C}\InProcServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3801-BD81-11D0-A3A5-00C04FD706EC}]
+@="共享的任务调度程序"
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3801-BD81-11D0-A3A5-00C04FD706EC}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{603D3801-BD81-11D0-A3A5-00C04FD706EC}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Favorites"="D:\\Backup.\\收藏夹"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\FileSystem]
+"Win31FileSystem"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\VIDEO]
+"MaxObjectNumber"=dword:00000004
+
+[HKEY_CLASSES_ROOT\CLSID\{529A9E6B-6587-4F23-AB9E-9C7D683E3C50}]
+@="TF_ThreadMgr"
+
+[HKEY_CLASSES_ROOT\CLSID\{529A9E6B-6587-4F23-AB9E-9C7D683E3C50}\InProcServer32]
+@="C:\\WINDOWS\\system32\\MSCTF.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{529A9E6B-6587-4F23-AB9E-9C7D683E3C50}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{3CE74DE4-53D3-4D74-8B83-431B3828BA53}]
+@="TF_DisplayAttributeMgr"
+
+[HKEY_CLASSES_ROOT\CLSID\{3CE74DE4-53D3-4D74-8B83-431B3828BA53}\InProcServer32]
+@="C:\\WINDOWS\\system32\\MSCTF.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{3CE74DE4-53D3-4D74-8B83-431B3828BA53}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{A4B544A1-438D-4B41-9325-869523E2D6C7}]
+@="TF_CategoryMgr"
+
+[HKEY_CLASSES_ROOT\CLSID\{A4B544A1-438D-4B41-9325-869523E2D6C7}\InProcServer32]
+@="C:\\WINDOWS\\system32\\MSCTF.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{A4B544A1-438D-4B41-9325-869523E2D6C7}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{33C53A50-F456-4884-B049-85FD643ECFED}]
+@="TF_InputProcessorProfiles"
+
+[HKEY_CLASSES_ROOT\CLSID\{33C53A50-F456-4884-B049-85FD643ECFED}\InProcServer32]
+@="C:\\WINDOWS\\system32\\MSCTF.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{33C53A50-F456-4884-B049-85FD643ECFED}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\Installer\Features\46B5A9879DD95AB419A50FCFA0B1B7EF]
+"AppleSoftwareUpdate"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\46B5A9879DD95AB419A50FCFA0B1B7EF\Features]
+"AppleSoftwareUpdate"="]=9fmturW?Yf}fKb.'_a=}uyqC2$5AJw']^Z]fR_TQ?B20utg(.L?N3&lrLWpI4!8fTO=9.}t`bY^%E=15?%n%iWs=,E&5u5w[eR)BK]]^473=Q9V*LEukGnH&5W=46ub8Zx?`,lU@f.,f.JsZxcz9MXl[W2{@fg(B$oDHjUw=_Bj-mv0d7H~MyTSbPYc9gDnYoI${fi1WB`2ZiNH@squ`^VhDU1.~gK0J00a=H5*A=Ei%O24K8K*z{.^82R73@h[wqTX3!]pC(zr?HB~'+5oul=+!{dQPR(==Ut9B*g69%Z7k4IQJER$=e5e.v3X7{A9Yw5AETNa8I`3`!G.{~GAFWZrrF@a?nvgsZUoGy=uhjW[Ka2b=_0)U(I,zEn*2l%K4Y$p90tG4g^GMnUv8hB1@%~@?44U=?zEaDk@WU,&To44@kA2CE6W(zfz,%%^kIIH9)=J&?VPPtyC.A&2.8!i?+i(&r]SosQzDIoyO-ox=)y['Eq7PU-i4,('PwW[8%D]2CT%C`&&['Q&&mBI9Xh[cZ}7HEtQcEE-K!V=@QwAP1)7klbxqWU(343)A(Z^dWs{kpUZ^EB`cihm=tX!&u5+K+DLH(*N{hM$?])V)S6f9ASCq4+v9Bq39^kX?9]5`bv(B7!WQyrp?.%2p`5u5xQ&'QGlP@W~?cE_ei}*^C6Ep)J$1e,g@SM8FjQX*jV_!-Wg*e-!@a{?8rZ?YOJL-jWnepS)@bMRd=Jl0V7.?1itg9}M@a5v[yv3'CCI+!S3nGf?9A?A'Zx}s)5A6z,O]B&X@iCqA70dq'dnFWopYNN1=[_'-%Vjl(yp3a,f(EM2=Cxxrz6k[7v?c!jTFPMA=k)Ve9*45R75{LUnVqr&=43APBg]d'@"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CA531D5D23F7059499DFA2F6A718730B]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9687BF2E004686E45BB4FC6A34B5499A]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\ScriptingObjectModel.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8AC758C26D2FBD11BA272103658D5939]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateAdmin.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0AC2C3E3B66692241A05563BB4273854]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\06015C6D17B1E274E90171DE8EDB5E48]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Documents and Settings\\All Users\\Application Data\\Apple\\Installer Cache\\Apple Software Update 2.1.3.127\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B8026B3A9D412054FBA59407372A9D7D]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\Software Update.tiff"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1A5BD264F87E85040B2B60E10A608742]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\da.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1614E77E9DA645446B8B12497F18623C]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\de.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A0D9EA9562F5357479728F3D32729446]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\en.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4E87F6781A8DB734AA81F9BD175D569C]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\es.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B04959D20249CDB4EA653F6ABF79B1A2]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\fi.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\07425A628D181864FA77E5548950DFC2]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\fr.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\16BD11713E65C2046B62B3B40AB229B8]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\it.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\66A10DED94DE44A42BCE2191877BFE64]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\ja.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\24B23C18BCA22454AAEADB6115FF6AB9]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\ko.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\37658C08041718449A0A100FD658BC05]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\nb.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\EBCE07E4BD06B4046AE15020B3540936]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\nl.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9499BF4E65F5F9948BA4E4E989394674]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\pl.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\67C1E60A4D72B8646A4F43115B578C7D]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\pt.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5A9400D6EC260F348859181CBB70E8E8]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\pt_PT.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\70A5D6925951A784AAF036848FDC66EC]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\ru.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\02AEEA9026A344B49BE993B54F343C0C]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\sv.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F327AF4A5BE6682449FCFA74D1DBCABF]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\zh_CN.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8C32EAB26DDA7E945A59E33ECE67E428]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdate.Resources\\zh_TW.lproj\\SoftwareUpdateLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4191D7BF86D6F5742BD366A521E47C02]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\da.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6F0F1AC009F8D104384FA8457DDEB5B0]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\de.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\ED346DA03731F824AB027BD967E2E6AE]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\en.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3A53030275BAF7B45AD6CE92770B4D3B]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\es.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CCD89311D8BD20E4A852B649E0904AE8]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\fi.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\95A671CABA5A7F64E81939CE8495D675]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\fr.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2A2ED767E447D9749B7970680E3F6B68]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\it.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\83CB0EFE72B6BE14F9AC3324A1220B1F]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\ja.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\16D7E329C96613A45916BBDA29487728]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\ko.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\E7FBD91D24848AA4DA96959C4E134093]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\nb.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\131EB5408FF72FC4F91195BC3A7C1819]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\nl.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1DAA1A2C5CE9DAA4E85EFD3EB548C3B6]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\pl.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\72F5F68D88F79EA41B5F0A646C05ECC3]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\pt.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\EA114BBEB86501C4983EFCAF6D77FF45]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\pt_PT.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\7FABE3035FD2532439F2ABB97AD45253]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\ru.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\86185B9798A9E6C4787101C3A2410C7B]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\sv.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\79AFD7FD48671F449A147960F9ACF19F]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\zh_CN.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C36262EBF06BAF4438DDABEFB2AAB40F]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\SoftwareUpdateFiles.Resources\\zh_TW.lproj\\SoftwareUpdateFilesLocalized.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2FBF74B8EFDC1654F863E83452159AC3]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\Plugins\\EXEInstallPlugin.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DA68958D458A7944E951F5251FE78DA4]
+"46B5A9879DD95AB419A50FCFA0B1B7EF"="C:\\Program Files\\Apple Software Update\\Plugins\\MSIInstallPlugin.dll"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"ACCESSFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"ACCESSFiles"="oR2'wFjgZA{MZbEq}_6_(i1,YstBK9Meu_Z[KYh)FT~@YQUu[A$k6tAU.1a)ua=x'hc=[=s1a~CaML_tiXwp?4[sf(lf*L[_GKbaProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8F287D2F41B64AF4F8AB65C5DD9B2B8A]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\MSACCESS.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0604BC897E3D1A24D85649D943BEEF41]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\SOA.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\78D9F59968E4FAF45A6D98057B259B41]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSAIN.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1BDD85F04D0D35642855B175E5AE85BE]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\AccessWeb\\CLNTWRAP.HTM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\039E13A476F62D11AA2A000A9CF0750B]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\ACWZLIB.MDE"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"ProductFiles"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"ProductFiles"="IVO28%dtw8QxVeJ2QUcN}lT]jI{jf(=1&L[-81-]z7dCRHB(g(Jy.0(qiBaXptK&IY9)z@'Ya0g)+vX'Ru@-7GUI$@?WrLD(OP0rfh'!$t.%,A3.*0lTwZD0wv$wmN+.f=.37iv!-jbM^P$OHQ55'Ah=J][6]2.`Q)@hUlM.?=m~Nj*ECtw0pl%6?*zSI?kbKH?q@[=1az@2@@VMt@Qq+-rxI~EPX9x$L2kE@=6c8guITDB-hO8hh%!y~9X@6P(31-!D"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0EAE1CE3652AD1140BB010C68A730687]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSO.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\379E92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\FM20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CCF41B38ABA24D116BB50001A5898679]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\FM20CHS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\19C2DC6651A24AD4BB2DE51C70F5C3E0]
+"4080110900063D11C8EF10054038389C"="00:\\.pip\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\32D4E7B3EE189BA43A8F778557FB693E]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\2052\\MSOINTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DBA0D1302088D1E44B6F7E0DC6732662]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\WDBIMP.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2516E66D0FE30B64EB1CDE1F52E7C357]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\MSOSTYLE.DLL"
+
+[HKEY_CLASSES_ROOT\CLSID\{42AEDC87-2188-41FD-B9A3-0C966FEABEC1}]
+@="MruPidlList"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1F53EF4649650FD468E7990AAA2398BA]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\RICHED20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\FE6545E80813C4542A70D28194279382]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\SAEXT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\987E83843F00AC84188BFB846FC86492]
+"4080110900063D11C8EF10054038389C"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\302623B42A36F6D44958083E97ACD8D7]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSE10.XML"
+
+[HKEY_CLASSES_ROOT\CLSID\{42AEDC87-2188-41FD-B9A3-0C966FEABEC1}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,64,00,6f,00,63,00,76,00,77,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\194C4107BD597554AB9AEBEE5F7F3102]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8854556CB1AD27447A0770116F1AF175]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\VBETOC.XML"
+
+[HKEY_CLASSES_ROOT\CLSID\{42AEDC87-2188-41FD-B9A3-0C966FEABEC1}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"EXCELFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"EXCELFiles"="!De@]Vz(r=f`1lfq`?R&vlT]jI{jf(=1&L[-81-]y0}*Q[,tf(RK)L[LRt5[$*hc1=**g((530(A%nlK?jbJ1o2Cc@+T&EMb8i4.RSvg9?^qf(Rp)L[_GKbaProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4D082B2ABF020274997F040CF9CB1EA0]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\EXCEL.EXE"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\BagMRU]
+"MRUListEx"=hex:01,00,00,00,00,00,00,00,ff,ff,ff,ff
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\BagMRU]
+"NodeSlots"=hex:02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+02,02,02,02,02,02,02,02,02,02,02,02,02,02,02
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D69E92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\XL5EN32.OLB"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\BagMRU]
+"NodeSlot"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B930CDF71DD72D116BD7000A9CF065F9]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\XL5CHS32.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A03399A23DC54D11297B0001A58916F6]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\XLINTL32.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4D6B7B92931FECC4DB15F247887B6D22]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\XLLEX.DLL"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"FFlags"=dword:00000225
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\18B64A346A732D11AA98000A9CF0750B]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\XLSTART\\"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"Mode"=dword:00000001
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"OUTLOOKFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"OUTLOOKFiles"="ir@X7cr$%@u$}&V7{4p'^pr9bUP.@9T*J7YrKk{5SeO=@XQ!J990fJ())kT2HCu-0iC,G9D&]qN)H46U4Y6=uaLqf(kfbqFgkW_B)4E9*E}mf(y-A__qm]R2V%b^I)BnN@V5n{x*Ii(X!{a8k3L+F?}Sc7o6@!+_rI9&Z2]b+?YGXs4KmNqY+j2r_[e$g(S)9ef,$29%6@dsCHgmU9&K8dYu6E4kDzBkuInpf(Ed)L[lj+'({eJ?9f9EI@i-fT^.,n)(B-mgZ!Sy{@Ax5Fk-~+CGProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\86362EC32236FBA41BB154F8C554D0F0]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\OUTLOOK.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3E87622B5AC093249833B29954A8CE73]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\ADDRPARS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CB9FE7B4CCB85924590F3D0102BD23D2]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\OUTLFLTR.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1975CB520786A724D9124E87DFDCDAC8]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\ADDRPRSR.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\149974DE22232D11A9C90006794C4E25]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\312AF861EB0D1D11788C00AA007AE1D2]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\OUTLLIB.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B6B04A86BCB281C49BBF4D8FD05DE859]
+"4080110900063D11C8EF10054038389C"="02:\\software\\clients\\Calendar\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8D7EB1EC879F9A84187C48AD8CCFE48A]
+"4080110900063D11C8EF10054038389C"="02:\\software\\clients\\Contacts\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\44360BB925D31E74EB0138436BF5C1B9]
+"4080110900063D11C8EF10054038389C"="02:\\software\\clients\\Mail\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6AFA1BAA335C3D11F803000CF4E5FF60]
+"4080110900063D11C8EF10054038389C"="00:\\.pst\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A58FDB658062403469680AA9D2D53FDC]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OUTLOOK.HOL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\176D4EEE7C022D111A58000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Office\\11.0\\Outlook\\Namespaces\\{0006F018-0000-0000-C000-000000000046}\\FolderTypes\\{00067820-0000-0000-C000-000000000046}\\FilterSearchType"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0AD323240D6E4EB48868A86A86F6ECF0]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OUTLLIBR.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\88A6EDD9998B5BD458F457EC42212716]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\OUTLRPC.DLL"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"PPTFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"PPTFiles"="P9BKi{VX.ACx!p(m*VXXqKFsSKc%g(]W?efDLW$t$_l{Wf+5H90'!EG%dplflf_,4.jxf8H~2F82]5}nProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\29B0C68C0C3653E468508221572CF179]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\POWERPNT.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2D4138882B0E3D117A67000CF497969E]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\QUIKANIM.PPT"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\349344593D2A48248A3D3816C9D5740C]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\PPINTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\FE9A2223487CE704CB4255F37AB7BB9D]
+"4080110900063D11C8EF10054038389C"="C:\\WINDOWS\\SHELLNEW\\PWRPNT11.POT"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_ShowRun"=dword:00000001
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"WORDFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"WORDFiles"="P`os,1@SW=P7v6GPl]XhQ$.t-kvHcAmjcJT!kvW]ek4knX@II?g$L?$]QLj],2?kfrOlp@GaiRq&X=frk?ZIF1=S_9&PAw69y-G*I&@A'uRuf([5eqFgkW_B3jwUbw+~_?g+UQ*vnyapProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CB4EDBE115A903645B145216AF54CC5C]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\WINWORD.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A453DD12EE71CEF49A4EB2A8684FB83A]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\FPCUTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5861C19D5F3D8C8439408F306F31034A]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\OMFC.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\515A830CA743D4D41A50691EBC1FF55E]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OMFCSAT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\254529E517DA553448F0FDA39645BE61]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\WWINTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\16EFE5D0815A2D11A92E0006794C4E25]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\WORD.PIP"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\41AE703BF87339947BDCC4715F97EFED]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\WORDMAIL.PIP"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"PackUpSettingsFiles"="TOOLSFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"PackUpSettingsFiles"="-5X-?2)UaAS7t-X][QzMTOOLSFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\881F2F74231BADF4F91EEB596DCCA167]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\PROFLWIZ.EXE"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"TOOLSFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"TOOLSFiles"="65&{T.td'?Zg(1neseTspl%6?*zSI?kbKH?q@[=1ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8B097EB80B10CB743A73A27D01261E7E]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\Smart Tag\\2052\\STINTL.DLL"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"MSOfficeDocumentImaging"="TOOLSFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"MSOfficeDocumentImaging"=".aS-FsdkO?xj&)ee8,4kFZYOKN3@m@L1H0OP'R2acT[(q8Q*8@ijSAR&&ukSHOey52jz7?hr7PdK!AOjTbQZ_0cB=?B+%PA}TWk=FQuTl[$hm=on&{]Ca+itT(U~Ix`rcAB)vXYZThKk?~^k?v}vT?T.?cY@.UPtsY1UIp^8o?=6kGH_0WrJTOOLSFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6321ABD559CB409499DB7EAB35921FDC]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\MSPCORE.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\FE1195E65025C2D48A53CC9748AD4CEA]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\2052\\MSPLCRES.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A9AD930EC5EA86B479DDC9383C42D388]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\2052\\MSPFLTRS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\04429D73A2BFA484A8A9B09B0C8EDABC]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\2052\\OFETOC.XML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\ADF1DD9AD5501684585004F46BD13E64]
+"4080110900063D11C8EF10054038389C"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6B97B12D9B097F648B7CBC4A69F83BBE]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\MSPGIMME.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F6835C96EC590FF4E81BF3A9ED039AEC]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\MDIINK.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9C8500A44A5D4394584779A97AEA6DAE]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\MDIVWCTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\EE944586907222A45916AB460C3EA7C6]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\MODI\\11.0\\MSPVIEW.EXE"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"ProductNonBootFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"ProductNonBootFiles"="nzT]jI{jf(=1&L[-81-]dbKx-lbmf(Gn,L[[Q~CNu*{VfBQnf(G=*L[xeX)y@vTC5-ie!?O@?t8kXV}nVnb1p4Smf(.()L[lj+'('.i$2`'85Aw$lt^QmP@zh{&6%TTT=?P~xHNt!__XeD&3!XNW,=r&Af[u(](i-q1y7QC.hoDx0g_j4N(kthNX)0Xqf(@k(L[LRt5[jPyxYea*a8?[%BcQ1.$Joo~R@jK(g(X}ZeAjLly8?-`zgahlf(AL7__oeu^I+~lP^@k(g(_4[eAjLly8y?L^uv`$g(00dqF?s}u+&igAVrR2&?+60X+8!I!^tCy0Z*ktf(qu*L[_GKbarc72Y?!lf({jeqFYK{3ktc72Y?!lf({jeqFYK{3kitsvMQt*&@6?}'a($52qa)6y+S},C?p8yhJ4.SK?MAmE,^!aOA4+Xi]+GDDG++wQywYIy=n!cohJfvvFK68q`xx23@kB[ewBPC-2-,x(dYjF.?J9JwIVx!-v'6SvP^N6M@0?7N(0LzA6J9}Q+n`B)=&9c7v0b.yT.y`!=+@]i?-4$O*_aj`CC'~)p}G@Y8nHc+e$g]ELljR(M@T&Q@~XGsm8wp@4E`e1J{'T`9jP~@7Gb'3@%*hc1=**g((530(A%nlK]2WA+1YddAF$)12x31TR`SGKO7WHt@Vlar[z{U)Q5QciuCK-MA2Cc6E%KGA`hG6Ejo%oj=I3Fc`bLge)-xqG+9}m?9mSvUDB@uz)uq0UglRT_8?a^qhW&B~b=xzvcs!um@Yhc^($bTaEy=jU$oAPy@2eYx^y7@Oa*V.kzv.s9?fvyw8og]F`+GR$^Z98H?5%lC-,-H@fBGbIu4ImU?W4?[?M~R$s^_5Xjqtx1@.[jKCG`eUAadpE7ELtd?w2~i.r==c$$-]NL[,nn9`0,_%XFurHq4h.]5nV*?xY]~P?@aQu)H5?%mi}f(Ci+L[o9FWQCrT]jI{jf(=1&L[-81-]KrT]jI{jf(=1&L[-81-]QrT]jI{jf(=1&L[-81-]tg9z([BRg96u+=[f2V[!pzDO9IrC^AZFfM5B*N&_J.auMrM[j?-+xarBc%xsq@n`)!`R)9?3+,Q.HC,+F)}4_H?NK?s{^NKVBUOhph1g)B4RJ@R4nz-tayw.'xXy@&$0n91F~roeIQ%rtCzrM)]lf(ELdqFgkW_BB3&5,B^pf(V%eqFgkW_BsrJ3ZQog{95oEPaUGo2KpzBkuInpf(Ed)L[lj+'(nzBkuInpf(Ed)L[lj+'()^Ia5R&qf(Ed)L[lj+'(lzBkuInpf(Ed)L[lj+'(80h5Giv!g(vaTeA?)7(&8gmN2k~ez@'Z]ILh0R+%Em'`igdpf(aD*L[_GKbahlT]jI{jf(=1&L[-81-]!?n))^9%g(+8UeA?)7(&u-C_QH_mX@,Q^K$pon2O3]dCy~JJ??%rq,H`YRs%6s?[[,`&)9py0bGg*hPGG`jA3q_`)?&WA~hxZ_i^n$=f]w~IJ?s1Oae+=TS.]c!p4=i4P9TMGJYDEX^ogiiAzeAag8jqlfz*3FVK_{@h=i,nf(R8(L[JO9}X_}M^V8Xqf(Rp)L[_GKbaProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B0EE92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\REFEDIT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\00965022248C1D110ADD000A9C502477]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\MSCOMCTL.OCX"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4A9B38FB20FD1D113959000A9CF0729F]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\MSRDO20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\536C6E53D8E9697418EBBF04CFCAEB9D]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\MSORUN\\MSORUN.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8EEF86DD963C1D111A37000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\DESIGNER\\MSADDNDR.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\682BF9B25097A6E42ABADA7AED16BECF]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\AW.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\03622E609DCF268498160777F7BD8579]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OLOCAL10.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\61EEC8000D8FCC44590DCE0AA64C557C]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSO.ACL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A0A0D0E3C44EB1CDFB76A4AAA464D8DC]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\GDIPLUS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\24E217412F532D116BB6000A9CF065F9]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\HLP95EN.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D50926B9F0AF74044ADF965BC5934D96]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OBALLOON.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2BD5F3C48DD24D116B3D00054077F214]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\BIDI32.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\38F35E3CCFDA1D11C97200AA00736A86]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\INTLDATE.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\48CC566AAF734D116B9D00054077F214]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\UCS20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\49B0C6EE4A3C3D11194C000680395BB1]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\ODBC\\Data Sources\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\40801109702ADA746AA47AA121C1BE4A]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Office\\11.0\\Common\\Config\\{90110804-6000-11D3-8CFE-0150048383C9}\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0C83B0C929092D11AA7A000A9CF0750B]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\EURO\\MSOEURO.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D92CAF890F891D119A2F000679BDFEDC]
+"4080110900063D11C8EF10054038389C"="C:\\WINDOWS\\Fonts\\WINGDNG2.TTF"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F92CAF890F891D119A2F000679BDFEDC]
+"4080110900063D11C8EF10054038389C"="C:\\WINDOWS\\Fonts\\WINGDNG3.TTF"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F7CF8F57EFB69CA4C90BB6EA1E26A80E]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\VBA\\VBA6\\2052\\FM20.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0DDC3DB11A80E884094D02C6897ACD84]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Server Extensions\\60\\BIN\\FPSRVUTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8A2F71D11189C3F4C9CF724AAE39D716]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Server Extensions\\60\\BIN\\FPENCODE.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\357427AF235C4674C810B96CF8BA1306]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Server Extensions\\60\\BIN\\FPWEC.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\04F65CDA326AA3B49B558E4F55EFFEB2]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A082AC7BA846AF744BDCB8968E8B1FFE]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\DW\\DWDCW20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\28C0B4F7EA1390C4D8EC4F010A394F83]
+"4080110900063D11C8EF10054038389C"="C:\\WINDOWS\\INF\\AER_2052.ADM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3178D6A16119EA44AB06C40F8E1C5DB8]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\DW\\DW20.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\01299744BBA6DE9458835371DD0AC065]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\DW\\2052\\DWINTL20.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8CA4A2DD729380043B0800BB8E938117]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\DW\\DWTRIG20.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\86FB2537CE70D2C41BA2C46D11F11B23]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\DataServices\\+连接到新数据源.odc"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\7412A4A62E22F53489F080C3B64893B4]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MSODCW.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\B03399A23DC54D11297B0001A58916F6]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MSOHTMED.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\EFD93D91D5768FF408DB90C25F98B448]
+"4080110900063D11C8EF10054038389C"="02:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Approved\\{42042206-2D85-11D3-8CFF-005004838597}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3CAA3AA75D6DE6D4DB3C061A77B8ECF7]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Office\\11.0\\Common\\General\\InstalledOnWin2K"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\46295DEEE73D42F46A22AEA54BD3E0CA]
+"4080110900063D11C8EF10054038389C"="C:\\Documents and Settings\\All Users\\Application Data\\Microsoft\\OFFICE\\DATA\\OPA11.BAK"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6587F4BC9E93CD64387534DADAD34E41]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSMH.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\88EAE0A1894063245BEBCC8512E8AA51]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSSH.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\76D3F82C3DB493043B44DA6C5209F64B]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\Migration\\MIGRATE.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DB5A057B2C8023D4C88B5811F98BC4C5]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\UCSCRIBE.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\17669C4032C8E9D4BAE31D7AAC82DAFA]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\USP10.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\BDAB17EF6C1EC5848A53E114D327F3CA]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Office\\11.0\\Common\\ProductVersion\\ProInfo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F3385F4A6250EB84F85912020EE00BEB]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\011\\SKU011.XML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F24F2BDE9B52D394CB360794A777C46E]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Office\\11.0\\Common\\LanguageResources\\SKULanguage"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D4F610CC7611F2B4584315550B4557F4]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A91853C3A4D11C94386BA9420EA7E350]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\9FE7C6173F615E34491143807C215466]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\2052\\ALRTINTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\2CFF832AA9DA6D7449DAD8F780DCDFDE]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\AUTHZAX.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C1B72170DE173D11ABFB000A9C30D418]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\ID_011.DPC"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\93BE92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\PROOF\\CHAPI3T1.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\14BE92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\PROOF\\CSAPI3T1.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\74BE92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\PROOF\\CTAPI3T2.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\00608821A1A80A347B29D7F985003E10]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Server Extensions\\60\\BIN\\2052\\FPEXT.MSG"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\80A87C24BBEACBF4FBB4646300D4428A]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSOHELP.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\23C8DE57102B6F94A925735EB12F229E]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\PSS10R.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\EA426B410BFC391488D76EF7B808B391]
+"4080110900063D11C8EF10054038389C"="D?\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OFMAIN11.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DB413A8A78E1CD842BE205E6F7C1775C]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSOHLP11.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3AD91F416D2BFEB4EB8DB1224848D152]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\OFREADME.HTM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\79F7F9D4A6BCED342B6A18CD5A42933E]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\SETUP.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\57634D5732AA1D11A9CC0006794C4E25]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\VBA\\VBA6\\VBE6EXT.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\6B150AC107B12D11A9DD0006794C4E25]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\MSVCP60.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\E82522C94A73E54448527BFA737117D6]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\MFC42CHS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\C96D4EEE7C022D111A58000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\VEN2232.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A96D4EEE7C022D111A58000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\VBAEND32.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\19845F63F1722D111A58000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\VBACHS32.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\896D4EEE7C022D111A58000A9CA05BF0]
+"4080110900063D11C8EF10054038389C"="C?\\WINDOWS\\system32\\VBAEN32.OLB"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3455A116CAEA3D116812000540386890]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Folders\\1033\\NSEXTINT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\AACEAFC27133AAD43A1BD317F56A8860]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\Web Folders\\2052\\NSEXTINT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\0C81529C29D12D11AA79000A9CF0750B]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Approved\\{BDEADF00-C265-11D0-BCED-00A0C90AB50F}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F59E92CC2CB71D119A12000A9CE1A22A]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\Web Folders\\MSONSEXT.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4B8FAE21B74D3D116813000540386890]
+"4080110900063D11C8EF10054038389C"="02:\\Software\\Microsoft\\Windows\\CurrentVersion\\explorer\\Advanced\\Folder\\Thickets\\Text"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8F34E818A3EC57C4B846A640FCA13E97]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSOXEV.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\5CC0DE9F26E3B684CB4FCE36ABB23F80]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSOXMLMF.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D3AFE80AA038F8147B1AB826F0BD1F16]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\MSXML5.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\F584D9F2AE74EC7428E9A17C4D83547A]
+"4080110900063D11C8EF10054038389C"="C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE11\\2052\\MSXML5R.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\DEFF804ACE642D84E9E20CCBC8681D32]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\Web Folders\\PKMWS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\142B16433709FC247B877B994E342CBD]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\Microsoft Shared\\Portal\\PortalConnect.dll"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4E467FCFB3095804E85194EF976889E6]
+"4080110900063D11C8EF10054038389C"="00:\\SOFTWARE\\Microsoft\\MasterAggregatorForIPP\\MSDAIPP\\ServerCacheLocation"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\15484C64884D1D1128C5000A9C505689]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\SYSTEM\\OLE DB\\MSDAIPP.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1EEA4119AF532D11AA98000A9CF0750B]
+"4080110900063D11C8EF10054038389C"="C?\\Program Files\\Common Files\\SYSTEM\\OLE DB\\MSDAPML.DLL"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"Sort"=dword:00000003
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Bags\1\Desktop]
+"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,\
+fd,0f,00,04,00,20,00,10,00,00,00,28,00,00,00,00,00,01,00,00,00,02,00,00,00,\
+03,00,00,00,b4,00,60,00,78,00,78,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"CAGFiles"="SHAREDFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"CAGFiles"="s*jMj-^!g(5-o.Q^5gGTu*jMj-^!g(5-o.Q^5gGT2b47$rx^,@fF].kp00hR6cbscd[7t?6l1CrB]W[J2VQ?mYtwLA-dB4TA5sPy)p$+$)C!g(5-o.Q^5gGT%ap+A@Pi@AE7uf*)$c*ell*xAoICBAUOezUt-Tg$SHAREDFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\8469F9BCE76A3D1118F000087C8201A8]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MSTORDB.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A469F9BCE76A3D1118F000087C8201A8]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MCPS.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\3D660D30E39B60B489F07CDCC487DF48]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MSTORE.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\1ACD137BBB4E05A4EAE5024EE88CCAB6]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSTORE10.AW"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\4CA5F64D311032F47AEAF79809A786AF]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSTINTL.DLL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\BEFA76308DD93D1118F000087C8201A8]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\MSTORES.DLL"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Streams\Desktop]
+"Upgrade"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\A13DB1E4127F0BE48A6AB081C3717FAB]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\D7C1EA0599E9FBE4696010F808F56650]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\MSTORE10.CHM"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"IconUnderline"=
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"SHAREDFiles"="ProductFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"SHAREDFiles"="pl%6?*zSI?kbKH?q@[=1ProductFiles"
+
+[HKEY_CLASSES_ROOT\Installer\Features\4080110900063D11C8EF10054038389C]
+"OfficeDigitalSFiles"="SHAREDFiles"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4080110900063D11C8EF10054038389C\Features]
+"OfficeDigitalSFiles"="d'yYH-!$JAs]nc!%7DY1$?&qbMV!o=hgKJe7bxx@SHAREDFiles"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"Wallpaper"="C:\\Documents and Settings\\bingo\\Local Settings\\Application Data\\Microsoft\\Wallpaper1.bmp"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\CD49465660DA70F4D9E272207E4014A2]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\SELFCERT.EXE"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\06A9CF3BF6B63074695A1FBB254899D4]
+"4080110900063D11C8EF10054038389C"="D:\\Program Files\\Microsoft Office\\OFFICE11\\2052\\CERTINTL.DLL"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+"CurrentBuildNumber"="2600"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+"CSDVersion"="Service Pack 3"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"TileWallpaper"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"WallpaperStyle"="2"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
+@=""
+
+[HKEY_CLASSES_ROOT\CLSID\{208D2C60-3AEA-1069-A2D7-08002B30309D}\ShellFolder]
+"HideOnDesktopPerUser"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\ShellFolder]
+"Attributes"=dword:00000024
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\ShellFolder]
+"HideFolderVerbs"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\ShellFolder]
+"WantsParseDisplayName"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\ShellFolder]
+"HideOnDesktopPerUser"=""
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\ShellFolder]
+"Attributes"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\ShellFolder]
+"Attributes"=hex:40,01,00,20
+
+[HKEY_CLASSES_ROOT\CLSID\{11016101-E366-4D22-BC06-4ADA335C892B}\ShellFolder]
+"Attributes"=dword:20180000
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}]
+"SortOrderIndex"=dword:00000048
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\ShellFolder]
+"Attributes"=dword:f080013d
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\ShellFolder]
+"CallForAttributes"=dword:00020040
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\ShellFolder]
+"WantsFORPARSING"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\ShellFolder]
+"QueryForOverlay"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\ShellFolder]
+"HideOnDesktopPerUser"=""
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F1-21D7-11D4-BDAF-00C04F60B9F0}\ShellFolder]
+"Attributes"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F1-21D7-11D4-BDAF-00C04F60B9F0}]
+"LocalizedString"="@explorer.exe,-7021"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F1-21D7-11D4-BDAF-00C04F60B9F0}\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,34,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F3-21D7-11D4-BDAF-00C04F60B9F0}\ShellFolder]
+"Attributes"=dword:00000000
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F3-21D7-11D4-BDAF-00C04F60B9F0}]
+"LocalizedString"="@explorer.exe,-7023"
+
+[HKEY_CLASSES_ROOT\CLSID\{2559A1F3-21D7-11D4-BDAF-00C04F60B9F0}\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,32,00,35,00,00,00
+
+[HKEY_CLASSES_ROOT\Unknown]
+"AlwaysShowExt"=""
+
+[HKEY_CLASSES_ROOT\.lnk\ShellEx\{000214F9-0000-0000-C000-000000000046}]
+@="{00021401-0000-0000-C000-000000000046}"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"My Pictures"=hex(2):46,00,3a,00,5c,00,4d,00,79,00,62,00,5c,00,4d,00,79,00,20,00,50,00,69,00,63,00,74,00,75,00,72,00,65,00,73,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"History"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,4c,00,6f,00,63,00,61,00,6c,00,20,00,53,00,65,00,74,00,74,00,69,00,6e,00,67,00,73,00,5c,00,48,00,69,00,73,00,74,00,6f,00,72,00,79,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Cookies"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,43,00,6f,00,6f,00,6b,00,69,00,65,00,73,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"SendTo"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,53,00,65,00,6e,00,64,00,54,00,6f,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Documents"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,44,00,6f,00,63,00,75,00,6d,00,65,00,6e,00,74,00,73,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Common Templates"=hex(2):25,00,41,00,4c,00,4c,00,55,00,53,00,45,00,52,00,53,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,54,00,65,00,6d,00,70,00,6c,00,61,00,74,00,65,00,73,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Cache"=hex(2):46,00,3a,00,5c,00,4d,00,79,00,62,00,5c,00,6e,00,65,00,74,00,66,00,69,00,6c,00,65,00,73,00,5c,00,49,00,6e,00,74,00,65,00,72,00,6e,00,65,00,74,00,20,00,34,4e,f6,65,87,65,f6,4e,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders]
+"Templates"=hex(2):25,00,55,00,53,00,45,00,52,00,50,00,52,00,4f,00,46,00,49,00,4c,00,45,00,25,00,5c,00,54,00,65,00,6d,00,70,00,6c,00,61,00,74,00,65,00,73,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,32,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+"Full"=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,33,00,32,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}]
+"LocalizedString"=hex(2):40,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,48,00,45,00,4c,00,4c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,38,00,39,00,36,00,34,00,00,00
+
+[HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\WindowsLogon\.Current]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,6d,00,65,00,64,00,69,00,61,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,58,00,50,00,20,00,7b,76,55,5f,f3,97,2e,00,77,00,61,00,76,00,00,00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DRIVERS32]
+"wave"="wdmaud.drv"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DRIVERS32]
+"midi"="wdmaud.drv"
+
+[HKEY_CLASSES_ROOT\exefile\DefaultIcon]
+@="%1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DRIVERS32]
+"wavemapper"="msacm32.drv"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DRIVERS32]
+"midimapper"="midimap.dll"
+
+[HKEY_CLASSES_ROOT\Interface\{6D67E846-5B9C-4DB8-9CBC-DDE12F4254F1}\ProxyStubClsid32]
+@="{A4A1A128-768F-41E0-BF75-E4FDDD701CBA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{01E04581-4EEE-11D0-BFE9-00AA005B4383}]
+@="地址(&A)"
+
+[HKEY_CLASSES_ROOT\CLSID\{01E04581-4EEE-11D0-BFE9-00AA005B4383}]
+"MenuTextPUI"="@browselc.dll,-13137"
+
+[HKEY_CLASSES_ROOT\CLSID\{0E5CBF21-D15F-11D0-8301-00AA005B4383}]
+@="链接(&L)"
+
+[HKEY_CLASSES_ROOT\CLSID\{0E5CBF21-D15F-11D0-8301-00AA005B4383}]
+"MenuTextPUI"="@browselc.dll,-13138"
+
+[HKEY_CLASSES_ROOT\CLSID\{B9E1D2CB-CCFF-4AA6-9579-D7A4754030EF}]
+@="iTunes"
+
+[HKEY_CLASSES_ROOT\CLSID\{9AC9FBE1-E0A2-4AD6-B4EE-E212013EA917}]
+@="ShellItem Shell Namespace helper"
+
+[HKEY_CLASSES_ROOT\CLSID\{9AC9FBE1-E0A2-4AD6-B4EE-E212013EA917}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,53,00,48,00,45,00,4c,00,4c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{9AC9FBE1-E0A2-4AD6-B4EE-E212013EA917}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{246ECB87-C2F2-4ABE-905B-C8B38ADD2C43}]
+"Dword"=dword:0000000c
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{34745C63-B2F0-4784-8B67-5E12C8701A31}]
+"Dword"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{5130A009-5540-4FCF-97EB-AAD33FC0EE09}]
+"Dword"=dword:0000000e
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{7AE86BB7-262C-431E-9111-C974B6B7CAC3}]
+"Dword"=dword:0000000f
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{B5A73CD1-8355-426B-A161-259808F26B14}]
+"Dword"=dword:0000000b
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CTF\TIP\{78CB5B0E-26ED-4FCC-854C-77E8F3D1AA80}\Category\Item\{C6DEBC0A-F2B2-4F17-930E-CA9FAFF4CD04}]
+"Dword"=dword:0000000d
+
+[HKEY_CLASSES_ROOT\CLSID\{00021401-0000-0000-C000-000000000046}\ProgID]
+@="lnkfile"
+
+[HKEY_CLASSES_ROOT\CLSID\{00021401-0000-0000-C000-000000000046}]
+@="快捷方式"
+
+[HKEY_CLASSES_ROOT\CLSID\{00021401-0000-0000-C000-000000000046}\InProcServer32]
+@="shell32.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{00021401-0000-0000-C000-000000000046}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\.zip]
+@="WinRAR.ZIP"
+
+[HKEY_CURRENT_USER\Software\Classes\.htm]
+@="ChromeHTML"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.htm\UserChoice]
+"Progid"="ChromeHTML"
+
+[HKEY_CLASSES_ROOT\.htm]
+"Content Type"="text/html"
+
+[HKEY_CLASSES_ROOT\CLSID\{DD313E04-FEFF-11d1-8ECD-0000F87A470C}\InProcServer32]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,62,00,72,00,6f,00,77,00,73,00,65,00,75,00,69,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{35CEC8A3-2BE6-11D2-8773-92E220524153}\InProcServer32]
+@="C:\\WINDOWS\\system32\\stobject.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{35CEC8A3-2BE6-11D2-8773-92E220524153}\InProcServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\SysTray]
+"Services"=dword:0000000f
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\ShellFolder]
+"Attributes"=dword:20000004
+
+[HKEY_CLASSES_ROOT\CLSID\{7542E960-79C7-11D1-88F9-0080C7D771BF}\ProgID]
+@="EventSystem.EventSubscription"
+
+[HKEY_CLASSES_ROOT\CLSID\{7542E960-79C7-11D1-88F9-0080C7D771BF}]
+@="Event Subscription"
+
+[HKEY_CLASSES_ROOT\CLSID\{7542E960-79C7-11D1-88F9-0080C7D771BF}\InprocServer32]
+@="C:\\WINDOWS\\system32\\es.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{7542E960-79C7-11D1-88F9-0080C7D771BF}\InprocServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\InProcServer32]
+@="shell32.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{4E14FBA2-2E22-11D1-9964-00C04FBBB345}\ProgID]
+@="EventSystem.EventSystem.1"
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}]
+@="打印机和传真"
+
+[HKEY_CLASSES_ROOT\CLSID\{2227A280-3AEA-1069-A2DE-08002B30309D}\InProcServer32]
+"ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\CLSID\{4E14FBA2-2E22-11D1-9964-00C04FBBB345}]
+@="Event System"
+
+[HKEY_CLASSES_ROOT\CLSID\{4E14FBA2-2E22-11D1-9964-00C04FBBB345}\InprocServer32]
+@="C:\\WINDOWS\\system32\\es.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{4E14FBA2-2E22-11D1-9964-00C04FBBB345}\InprocServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\CLSID\{1BE1F766-5536-11D1-B726-00C04FB926AF}]
+@="EventSystemTier2"
+
+[HKEY_CLASSES_ROOT\Interface\{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}\ProxyStubClsid32]
+@="{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}"
+
+[HKEY_CLASSES_ROOT\CLSID\{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}]
+@="PSFactoryBuffer"
+
+[HKEY_CLASSES_ROOT\CLSID\{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}\InProcServer32]
+@="C:\\WINDOWS\\system32\\es.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}\InProcServer32]
+"ThreadingModel"="Both"
+
+[HKEY_CLASSES_ROOT\Interface\{609B954B-4FB6-11D1-9971-00C04FBBB345}\ProxyStubClsid32]
+@="{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}"
+
+[HKEY_CLASSES_ROOT\Interface\{609B9557-4FB6-11D1-9971-00C04FBBB345}\ProxyStubClsid32]
+@="{64B8F404-A4AE-11D1-B7B6-00C04FB926AF}"
+
