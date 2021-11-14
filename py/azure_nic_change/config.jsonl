@@ -1,0 +1,2 @@
+{"configuration": {"subscription_id": "a5642f9e-2f59-4d9b-8992-9f23d53f71ec", "resource_group_name": "HK", "virtual_machine": "test", "network_interface": "test541", "subnet_id": "HK-vnet", "primary_ip": "52.175.64.90"}}
+{"configuration": {"subscription_id": "a5642f9e-2f59-4d9b-8992-9f23d53f71ec", "resource_group_name": "HK", "virtual_machine": "test", "network_interface": "test541", "subnet_id": "HK-vnet", "primary_ip": "52.175.64.90"}}
